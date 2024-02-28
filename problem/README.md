@@ -6,9 +6,10 @@
 [Easy Peasy](#easy-peasy)  
 [Cookies](#cookies)  
 [Insp3ct0r](#insp3ct0r)  
-[Scavenger Hunt](#scavenger-hunt)
-[Glory of the Garden](#glory-of-the-garden)
-[Lets Warm Up](#lets-warm-up)
+[Scavenger Hunt](#scavenger-hunt)  
+[Glory of the Garden](#glory-of-the-garden)  
+[Lets Warm Up](#lets-warm-up)  
+[vault-door-training](#vault-door-training)
 
 # crackme-py
 
@@ -126,3 +127,13 @@ https://www.rapidtables.com/convert/number/hex-to-ascii.htmlで変換
 
 ##　学び
 答えは picoCTF{}の中に入れよう
+
+# vault-door-training
+
+## 解き方
+
+コードの中に flag が書いてある
+
+## 学び
+
+特になし
