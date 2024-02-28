@@ -10,7 +10,8 @@
 [Glory of the Garden](#glory-of-the-garden)  
 [Lets Warm Up](#lets-warm-up)  
 [vault-door-training](#vault-door-training)  
-[Warmed Up](#warmed-up)
+[Warmed Up](#warmed-up)  
+[2Warm](#2warm)
 
 # 解いた問題
 
@@ -146,6 +147,16 @@ https://www.rapidtables.com/convert/number/hex-to-ascii.htmlで変換
 ## 解き方
 
 16 進数を 10 進数に変換する
+
+## 学び
+
+特になし
+
+## 2Warm
+
+## 解き方
+
+10 進数を 2 進数に変換するだけ
 
 ## 学び
 
