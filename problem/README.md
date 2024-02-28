@@ -8,6 +8,7 @@
 [Insp3ct0r](#insp3ct0r)  
 [Scavenger Hunt](#scavenger-hunt)
 [Glory of the Garden](#glory-of-the-garden)
+[Lets Warm Up](#lets-warm-up)
 
 # crackme-py
 
@@ -115,3 +116,13 @@ strings でファイル内に文字ないか確認 -> Here is a flag "picoCTF{mo
 ## 学び
 
 特になし
+
+# Lets Warm Up
+
+## 解き方
+
+x70 を ascii に変換するだけ
+https://www.rapidtables.com/convert/number/hex-to-ascii.htmlで変換
+
+##　学び
+答えは picoCTF{}の中に入れよう
