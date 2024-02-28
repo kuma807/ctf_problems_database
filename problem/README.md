@@ -9,7 +9,8 @@
 [Scavenger Hunt](#scavenger-hunt)  
 [Glory of the Garden](#glory-of-the-garden)  
 [Lets Warm Up](#lets-warm-up)  
-[vault-door-training](#vault-door-training)
+[vault-door-training](#vault-door-training)  
+[Warmed Up](#warmed-up)
 
 # 解いた問題
 
@@ -135,6 +136,16 @@ https://www.rapidtables.com/convert/number/hex-to-ascii.htmlで変換
 ## 解き方
 
 コードの中に flag が書いてある
+
+## 学び
+
+特になし
+
+## Warmed Up
+
+## 解き方
+
+16 進数を 10 進数に変換する
 
 ## 学び
 
