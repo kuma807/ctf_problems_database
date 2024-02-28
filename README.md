@@ -13,37 +13,37 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 
 | problem                                                                             | event                  | category            | いいね率 | solves | points | solved |
 | ----------------------------------------------------------------------------------- | ---------------------- | ------------------- | -------: | -----: | -----: | ------ |
-| [Obedient Cat](https://play.picoctf.org/practice/challenge/147)                     | picoCTF 2021           | General Skills      |      88% | 244646 |      5 | ❌     |
-| [Mod 26](https://play.picoctf.org/practice/challenge/144)                           | picoCTF 2021           | Cryptography        |      89% | 203353 |     10 | ❌     |
-| [Python Wrangling](https://play.picoctf.org/practice/challenge/166)                 | picoCTF 2021           | General Skills      |      60% | 126161 |     10 | ❌     |
-| [Wave a flag](https://play.picoctf.org/practice/challenge/170)                      | picoCTF 2021           | General Skills      |      87% | 145917 |     10 | ❌     |
-| [information](https://play.picoctf.org/practice/challenge/186)                      | picoCTF 2021           | Forensics           |      41% |  99495 |     10 | ❌     |
-| [Nice netcat...](https://play.picoctf.org/practice/challenge/156)                   | picoCTF 2021           | General Skills      |      87% | 119194 |     15 | ❌     |
-| [Transformation](https://play.picoctf.org/practice/challenge/104)                   | picoCTF 2021           | Reverse Engineering |      53% |  47529 |     20 | ❌     |
-| [Stonks](https://play.picoctf.org/practice/challenge/105)                           | picoCTF 2021           | Binary Exploitation |      56% |  27056 |     20 | ❌     |
-| [GET aHEAD](https://play.picoctf.org/practice/challenge/132)                        | picoCTF 2021           | Web Exploitation    |      81% |  75557 |     20 | ❌     |
-| [Mind your Ps and Qs](https://play.picoctf.org/practice/challenge/162)              | picoCTF 2021           | Cryptography        |      72% |  36498 |     20 | ❌     |
-| [Static ain't always noise](https://play.picoctf.org/practice/challenge/163)        | picoCTF 2021           | General Skills      |      82% |  71700 |     20 | ❌     |
-| [Tab, Tab, Attack](https://play.picoctf.org/practice/challenge/176)                 | picoCTF 2021           | General Skills      |      80% |  73483 |     20 | ❌     |
-| [keygenme-py](https://play.picoctf.org/practice/challenge/121)                      | picoCTF 2021           | Reverse Engineering |      89% |  24728 |     30 | ❌     |
-| [Matryoshka doll](https://play.picoctf.org/practice/challenge/129)                  | picoCTF 2021           | Forensics           |      89% |  40004 |     30 | ❌     |
-| [crackme-py](https://play.picoctf.org/practice/challenge/175)                       | picoCTF 2021           | Reverse Engineering |      72% |  34768 |     30 | ❌     |
-| [Magikarp Ground Mission](https://play.picoctf.org/practice/challenge/189)          | picoCTF 2021           | General Skills      |      87% |  61693 |     30 | ❌     |
-| [tunn3l v1s10n](https://play.picoctf.org/practice/challenge/112)                    | picoCTF 2021           | Forensics           |      46% |  16821 |     40 | ❌     |
-| [Easy Peasy](https://play.picoctf.org/practice/challenge/125)                       | picoCTF 2021           | Cryptography        |      47% |   9102 |     40 | ❌     |
+| [Obedient Cat](https://play.picoctf.org/practice/challenge/147)                     | picoCTF 2021           | General Skills      |      88% | 244646 |      5 | ✅     |
+| [Mod 26](https://play.picoctf.org/practice/challenge/144)                           | picoCTF 2021           | Cryptography        |      89% | 203353 |     10 | ✅     |
+| [Python Wrangling](https://play.picoctf.org/practice/challenge/166)                 | picoCTF 2021           | General Skills      |      60% | 126161 |     10 | ✅     |
+| [Wave a flag](https://play.picoctf.org/practice/challenge/170)                      | picoCTF 2021           | General Skills      |      87% | 145917 |     10 | ✅     |
+| [information](https://play.picoctf.org/practice/challenge/186)                      | picoCTF 2021           | Forensics           |      41% |  99495 |     10 | ✅     |
+| [Nice netcat...](https://play.picoctf.org/practice/challenge/156)                   | picoCTF 2021           | General Skills      |      87% | 119194 |     15 | ✅     |
+| [Transformation](https://play.picoctf.org/practice/challenge/104)                   | picoCTF 2021           | Reverse Engineering |      53% |  47529 |     20 | ✅     |
+| [Stonks](https://play.picoctf.org/practice/challenge/105)                           | picoCTF 2021           | Binary Exploitation |      56% |  27056 |     20 | ✅     |
+| [GET aHEAD](https://play.picoctf.org/practice/challenge/132)                        | picoCTF 2021           | Web Exploitation    |      81% |  75557 |     20 | ✅     |
+| [Mind your Ps and Qs](https://play.picoctf.org/practice/challenge/162)              | picoCTF 2021           | Cryptography        |      72% |  36498 |     20 | ✅     |
+| [Static ain't always noise](https://play.picoctf.org/practice/challenge/163)        | picoCTF 2021           | General Skills      |      82% |  71700 |     20 | ✅     |
+| [Tab, Tab, Attack](https://play.picoctf.org/practice/challenge/176)                 | picoCTF 2021           | General Skills      |      80% |  73483 |     20 | ✅     |
+| [keygenme-py](https://play.picoctf.org/practice/challenge/121)                      | picoCTF 2021           | Reverse Engineering |      89% |  24728 |     30 | ✅     |
+| [Matryoshka doll](https://play.picoctf.org/practice/challenge/129)                  | picoCTF 2021           | Forensics           |      89% |  40004 |     30 | ✅     |
+| [crackme-py](https://play.picoctf.org/practice/challenge/175)                       | picoCTF 2021           | Reverse Engineering |      72% |  34768 |     30 | ✅     |
+| [Magikarp Ground Mission](https://play.picoctf.org/practice/challenge/189)          | picoCTF 2021           | General Skills      |      87% |  61693 |     30 | ✅     |
+| [tunn3l v1s10n](https://play.picoctf.org/practice/challenge/112)                    | picoCTF 2021           | Forensics           |      46% |  16821 |     40 | ✅     |
+| [Easy Peasy](https://play.picoctf.org/practice/challenge/125)                       | picoCTF 2021           | Cryptography        |      47% |   9102 |     40 | ✅     |
 | [ARMssembly 0](https://play.picoctf.org/practice/challenge/160)                     | picoCTF 2021           | Reverse Engineering |      53% |   7695 |     40 | ❌     |
-| [Cookies](https://play.picoctf.org/practice/challenge/173)                          | picoCTF 2021           | Web Exploitation    |      61% |  57183 |     40 | ❌     |
-| [vault-door-training](https://play.picoctf.org/practice/challenge/7)                | picoCTF 2019           | Reverse Engineering |      71% |  49503 |     50 | ❌     |
-| [Insp3ct0r](https://play.picoctf.org/practice/challenge/18)                         | picoCTF 2019           | Web Exploitation    |      87% |  99978 |     50 | ❌     |
-| [Lets Warm Up](https://play.picoctf.org/practice/challenge/22)                      | picoCTF 2019           | General Skills      |      73% | 110699 |     50 | ❌     |
-| [Glory of the Garden](https://play.picoctf.org/practice/challenge/44)               | picoCTF 2019           | Forensics           |      83% |  55077 |     50 | ❌     |
+| [Cookies](https://play.picoctf.org/practice/challenge/173)                          | picoCTF 2021           | Web Exploitation    |      61% |  57183 |     40 | ✅     |
+| [vault-door-training](https://play.picoctf.org/practice/challenge/7)                | picoCTF 2019           | Reverse Engineering |      71% |  49503 |     50 | ✅     |
+| [Insp3ct0r](https://play.picoctf.org/practice/challenge/18)                         | picoCTF 2019           | Web Exploitation    |      87% |  99978 |     50 | ✅     |
+| [Lets Warm Up](https://play.picoctf.org/practice/challenge/22)                      | picoCTF 2019           | General Skills      |      73% | 110699 |     50 | ✅     |
+| [Glory of the Garden](https://play.picoctf.org/practice/challenge/44)               | picoCTF 2019           | Forensics           |      83% |  55077 |     50 | ✅     |
 | [Warmed Up](https://play.picoctf.org/practice/challenge/58)                         | picoCTF 2019           | General Skills      |      81% |  93153 |     50 | ❌     |
 | [The Numbers](https://play.picoctf.org/practice/challenge/68)                       | picoCTF 2019           | Cryptography        |      57% |  61731 |     50 | ❌     |
 | [2Warm](https://play.picoctf.org/practice/challenge/86)                             | picoCTF 2019           | General Skills      |      78% |  92829 |     50 | ❌     |
 | [Wireshark doo dooo do doo...](https://play.picoctf.org/practice/challenge/115)     | picoCTF 2021           | Forensics           |      79% |  26800 |     50 | ❌     |
 | [speeds and feeds](https://play.picoctf.org/practice/challenge/116)                 | picoCTF 2021           | Reverse Engineering |      82% |  14660 |     50 | ❌     |
 | [Shop](https://play.picoctf.org/practice/challenge/134)                             | picoCTF 2021           | Reverse Engineering |      84% |  13550 |     50 | ❌     |
-| [Scavenger Hunt](https://play.picoctf.org/practice/challenge/161)                   | picoCTF 2021           | Web Exploitation    |      62% |  46736 |     50 | ❌     |
+| [Scavenger Hunt](https://play.picoctf.org/practice/challenge/161)                   | picoCTF 2021           | Web Exploitation    |      62% |  46736 |     50 | ✅     |
 | [MacroHard WeakEdge](https://play.picoctf.org/practice/challenge/130)               | picoCTF 2021           | Forensics           |      75% |  15312 |     60 | ❌     |
 | [New Caesar](https://play.picoctf.org/practice/challenge/158)                       | picoCTF 2021           | Cryptography        |      57% |   7604 |     60 | ❌     |
 | [ARMssembly 1](https://play.picoctf.org/practice/challenge/111)                     | picoCTF 2021           | Reverse Engineering |      58% |   3237 |     70 | ❌     |
