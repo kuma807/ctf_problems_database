@@ -7,6 +7,7 @@
 [Cookies](#cookies)  
 [Insp3ct0r](#insp3ct0r)  
 [Scavenger Hunt](#scavenger-hunt)
+[Glory of the Garden](#glory-of-the-garden)
 
 # crackme-py
 
@@ -102,3 +103,15 @@ mac なので/.DS_Store にアクセスすると最後の flag が見つかる
 - robots.txt は外部からアクセスすることが想定されていてクローラーとかが index 化して良いページの指定などをしている。
 - /.htaccess は url リダイレクト、アクセス制限、キャッシュ制御などさまざまな設定を行うファイル。重要な設定に関わるファイルでセキュリティ的に外部から見れてはいけない。/.htaccess ないで外部から見れないように設定ができる。
 - /.DS_Store は macOS の Finder によって作成される隠しファイルで、フォルダ内のファイルの表示方法(アイコンの位置、選択されたビューの種類、ウィンドウのサイズ、背景色や背景画像など）を記録します。/.DS_Store は macos 以外では不要なファイルで web サーバーなどにアップロードしてしまうと デレクトリ構造などがバレてしまう。git で/.DS_Store は含まないように気をつけよう。
+
+# Glory of the Garden
+
+## 解き方
+
+exiftool で追加情報を見る。特に何もなし
+binwalk でなかにファイルないか確認。何もなし
+strings でファイル内に文字ないか確認 -> Here is a flag "picoCTF{more_than_m33ts_the_3y3eBdBd2cc}"
+
+## 学び
+
+特になし
