@@ -11,7 +11,8 @@
 [Lets Warm Up](#lets-warm-up)  
 [vault-door-training](#vault-door-training)  
 [Warmed Up](#warmed-up)  
-[2Warm](#2warm)
+[2Warm](#2warm)  
+[PW Crack 1](#pw-crack-1)
 
 # 解いた問題
 
@@ -157,6 +158,16 @@ https://www.rapidtables.com/convert/number/hex-to-ascii.htmlで変換
 ## 解き方
 
 10 進数を 2 進数に変換するだけ
+
+## 学び
+
+特になし
+
+## PW Crack 1
+
+## 解き方
+
+python コードを読んで入力するパスワードを探す
 
 ## 学び
 

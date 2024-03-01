@@ -82,7 +82,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [fixme2.py](https://play.picoctf.org/practice/challenge/241)                        | Beginner picoMini 2022 | General Skills      |      86% |  40109 |    100 | ❌     |
 | [Glitch Cat](https://play.picoctf.org/practice/challenge/242)                       | Beginner picoMini 2022 | General Skills      |      70% |  37098 |    100 | ❌     |
 | [HashingJobApp](https://play.picoctf.org/practice/challenge/243)                    | Beginner picoMini 2022 | General Skills      |      74% |  34914 |    100 | ❌     |
-| [PW Crack 1](https://play.picoctf.org/practice/challenge/245)                       | Beginner picoMini 2022 | General Skills      |      83% |  37874 |    100 | ❌     |
+| [PW Crack 1](https://play.picoctf.org/practice/challenge/245)                       | Beginner picoMini 2022 | General Skills      |      83% |  37874 |    100 | ✅     |
 | [PW Crack 2](https://play.picoctf.org/practice/challenge/246)                       | Beginner picoMini 2022 | General Skills      |      91% |  35717 |    100 | ❌     |
 | [PW Crack 3](https://play.picoctf.org/practice/challenge/247)                       | Beginner picoMini 2022 | General Skills      |      73% |  30606 |    100 | ❌     |
 | [PW Crack 4](https://play.picoctf.org/practice/challenge/248)                       | Beginner picoMini 2022 | General Skills      |      87% |  25930 |    100 | ❌     |
