@@ -40,7 +40,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [Warmed Up](https://play.picoctf.org/practice/challenge/58)                         | picoCTF 2019           | General Skills      |      81% |  93153 |     50 | ✅     |
 | [The Numbers](https://play.picoctf.org/practice/challenge/68)                       | picoCTF 2019           | Cryptography        |      57% |  61731 |     50 | ❌     |
 | [2Warm](https://play.picoctf.org/practice/challenge/86)                             | picoCTF 2019           | General Skills      |      78% |  92829 |     50 | ✅     |
-| [Wireshark doo dooo do doo...](https://play.picoctf.org/practice/challenge/115)     | picoCTF 2021           | Forensics           |      79% |  26800 |     50 | ❌     |
+| [Wireshark doo dooo do doo...](https://play.picoctf.org/practice/challenge/115)     | picoCTF 2021           | Forensics           |      79% |  26800 |     50 | ✅     |
 | [speeds and feeds](https://play.picoctf.org/practice/challenge/116)                 | picoCTF 2021           | Reverse Engineering |      82% |  14660 |     50 | ❌     |
 | [Shop](https://play.picoctf.org/practice/challenge/134)                             | picoCTF 2021           | Reverse Engineering |      84% |  13550 |     50 | ❌     |
 | [Scavenger Hunt](https://play.picoctf.org/practice/challenge/161)                   | picoCTF 2021           | Web Exploitation    |      62% |  46736 |     50 | ✅     |

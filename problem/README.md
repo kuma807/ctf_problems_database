@@ -12,7 +12,8 @@
 [vault-door-training](#vault-door-training)  
 [Warmed Up](#warmed-up)  
 [2Warm](#2warm)  
-[PW Crack 1](#pw-crack-1)
+[PW Crack 1](#pw-crack-1)  
+[Wireshark doo dooo do doo...](#wireshark-doo-dooo-do-doo...)
 
 # 解いた問題
 
@@ -172,3 +173,15 @@ python コードを読んで入力するパスワードを探す
 ## 学び
 
 特になし
+
+## Wireshark doo dooo do doo...
+
+## 解き方
+
+wireshark でファイルを開いて通信を解読していく。tcp 通信はコネクション型プロトコルで通信のコネクションを確立する役割を持つ、そのため実際のデータの通信では http 通信が利用される。通信内容を見るために wireshark の info 絞り込みで http リクエストのみを見ると Gur synt vf cvpbPGS{c33xno00_1_f33_h_qrnqorrs}という文字列が見るかる。これをシーザー暗号解読機にかけると flag が出てくる。
+
+## 学び
+
+- tcp 通信はコネクションのためであり、実際の内容を通信してない
+- wireshark で info 絞り込みをすると http 通信を絞り込みやすい
+- シーザー暗号（cvpbPGS{c33xno00_1_f33_h_qrnqorrs}みたいにローマ字をずらすやつ）を解読するのに http://www.net.c.dendai.ac.jp/crypto/caesar2.html?# が便利
