@@ -13,7 +13,8 @@
 [Warmed Up](#warmed-up)  
 [2Warm](#2warm)  
 [PW Crack 1](#pw-crack-1)  
-[Wireshark doo dooo do doo...](#wireshark-doo-dooo-do-doo...)
+[Wireshark doo dooo do doo...](#wireshark-doo-dooo-do-doo...)  
+[Who are you?](#who-are-you?)
 
 # 解いた問題
 
@@ -185,3 +186,13 @@ wireshark でファイルを開いて通信を解読していく。tcp 通信は
 - tcp 通信はコネクションのためであり、実際の内容を通信してない
 - wireshark で info 絞り込みをすると http 通信を絞り込みやすい
 - シーザー暗号（cvpbPGS{c33xno00_1_f33_h_qrnqorrs}みたいにローマ字をずらすやつ）を解読するのに http://www.net.c.dendai.ac.jp/crypto/caesar2.html?# が便利
+
+## Who are you?
+
+## 解き方
+
+curl を使って使ってるウェブブラウザ、日付、追跡されない設定、どのサイト経由で来たか、どの国からアクセスしてるか、どの言語を使っているかなどを指定できる。
+
+## 学び
+
+- curl を使うと http ヘッダを操作できる

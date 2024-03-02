@@ -70,7 +70,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [Pixelated](https://play.picoctf.org/practice/challenge/100)                        | picoCTF 2021           | Cryptography        |      70% |   6570 |    100 | ❌     |
 | [It is my Birthday](https://play.picoctf.org/practice/challenge/109)                | picoCTF 2021           | Web Exploitation    |      73% |  17498 |    100 | ❌     |
 | [Wireshark twoo twooo two twoo...](https://play.picoctf.org/practice/challenge/110) | picoCTF 2021           | Forensics           |      37% |   7995 |    100 | ❌     |
-| [Who are you?](https://play.picoctf.org/practice/challenge/142)                     | picoCTF 2021           | Web Exploitation    |      69% |  18845 |    100 | ❌     |
+| [Who are you?](https://play.picoctf.org/practice/challenge/142)                     | picoCTF 2021           | Web Exploitation    |      69% |  18845 |    100 | ✅     |
 | [Hurry up! Wait!](https://play.picoctf.org/practice/challenge/165)                  | picoCTF 2021           | Reverse Engineering |      48% |   2281 |    100 | ❌     |
 | [Unsubscriptions Are Free](https://play.picoctf.org/practice/challenge/187)         | picoCTF 2021           | Binary Exploitation |      74% |   1688 |    100 | ❌     |
 | [login](https://play.picoctf.org/practice/challenge/200)                            | picoMini by redpwn     | Web Exploitation    |      88% |  35583 |    100 | ❌     |
