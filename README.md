@@ -194,7 +194,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [plumbing](https://play.picoctf.org/practice/challenge/48)                          | picoCTF 2019                  | General Skills      |      93% |  36340 |    200 | ❌     |
 | [vault-door-3](https://play.picoctf.org/practice/challenge/60)                      | picoCTF 2019                  | Reverse Engineering |      75% |   8008 |    200 | ❌     |
 | [rsa-pop-quiz](https://play.picoctf.org/practice/challenge/61)                      | picoCTF 2019                  | Cryptography        |      32% |   2851 |    200 | ❌     |
-| [Client-side-again](https://play.picoctf.org/practice/challenge/69)                 | picoCTF 2019                  | Web Exploitation    |      71% |  17029 |    200 | ❌     |
+| [Client-side-again](https://play.picoctf.org/practice/challenge/69)                 | picoCTF 2019                  | Web Exploitation    |      71% |  17029 |    200 | ✅     |
 | [Pitter, Patter, Platters](https://play.picoctf.org/practice/challenge/87)          | picoCTF 2020 Mini-Competition | Forensics           |      59% |   4374 |    200 | ❌     |
 | [Web Gauntlet](https://play.picoctf.org/practice/challenge/88)                      | picoCTF 2020 Mini-Competition | Web Exploitation    |      83% |  10133 |    200 | ❌     |
 | [Kit Engine](https://play.picoctf.org/practice/challenge/168)                       | picoCTF 2021                  | Binary Exploitation |      88% |    338 |    200 | ❌     |

@@ -26,7 +26,8 @@
 [picobrowser](#picobrowser)  
 [Power Cookie](#power-cookie)  
 [Forbidden Paths](#forbidden-paths)  
-[It is my Birthday](#it-is-my-birthday)
+[It is my Birthday](#it-is-my-birthday)  
+[Client-side-again](#client-side-again)
 
 # 解いた問題
 
@@ -333,3 +334,13 @@ https://www.softel.co.jp/blogs/tech/archives/7212
 
 - md5 とは、任意の長さの原文を元に 128 ビットの値を生成するハッシュ関数（要約関数）の一つ。生成された値はハッシュ値（MD5 ハッシュ）と呼ばれる。
 - md5 はハッシュの衝突する値が見つけられるようになって最近は SHA-256 が代わりに使われる
+
+## Client-side-again
+
+## 解き方
+
+html に書いてある配列を元に flag を予想した。正規手順としては js を実際に動かして if 文で比較されてる文字を見るのがいいかも
+
+## 学び
+
+- html,js を解析するときは実際に動かそう
