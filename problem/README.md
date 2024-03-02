@@ -16,7 +16,8 @@
 [Wireshark doo dooo do doo...](#wireshark-doo-dooo-do-doo...)  
 [Who are you?](#who-are-you?)  
 [where are the robots](#where-are-the-robots)  
-[dont-use-client-side](#dont-use-client-side)
+[dont-use-client-side](#dont-use-client-side)  
+[logon](#logon)
 
 # 解いた問題
 
@@ -220,3 +221,14 @@ js を読むだけ
 ## 学び
 
 特になし
+
+## logon
+
+## 解き方
+
+適当な username でログインを試すと成功して flag っていうページに飛ぶ。ただ権限の問題か flag が表示されない。cookie を見ると admin という項目と username の項目があるので admin=True,username=Joe にすると flag が見れる。  
+username は変える必要がなかったらしく、admin=True だけで flag は表示される。
+
+## 学び
+
+- cookie の情報だけで処理を変えるのは良くない

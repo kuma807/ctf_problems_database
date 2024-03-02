@@ -61,7 +61,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [what's a net cat?](https://play.picoctf.org/practice/challenge/34)                 | picoCTF 2019                  | General Skills      |      85% |  86284 |    100 | ❌     |
 | [strings it](https://play.picoctf.org/practice/challenge/37)                        | picoCTF 2019                  | General Skills      |      79% |  65154 |    100 | ❌     |
 | [Easy1](https://play.picoctf.org/practice/challenge/43)                             | picoCTF 2019                  | Cryptography        |      54% |  34205 |    100 | ❌     |
-| [logon](https://play.picoctf.org/practice/challenge/46)                             | picoCTF 2019                  | Web Exploitation    |      88% |  50744 |    100 | ❌     |
+| [logon](https://play.picoctf.org/practice/challenge/46)                             | picoCTF 2019                  | Web Exploitation    |      88% |  50744 |    100 | ✅     |
 | [13](https://play.picoctf.org/practice/challenge/62)                                | picoCTF 2019                  | Cryptography        |      85% |  48643 |    100 | ❌     |
 | [caesar](https://play.picoctf.org/practice/challenge/64)                            | picoCTF 2019                  | Cryptography        |      56% |  40458 |    100 | ❌     |
 | [dont-use-client-side](https://play.picoctf.org/practice/challenge/66)              | picoCTF 2019                  | Web Exploitation    |      84% |  51051 |    100 | ✅     |
