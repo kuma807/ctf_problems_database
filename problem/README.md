@@ -24,7 +24,8 @@
 [Local Authority](#local-authority)  
 [Some Assembly Required 1](#some-assembly-required-1)  
 [picobrowser](#picobrowser)  
-[Power Cookie](#power-cookie)
+[Power Cookie](#power-cookie)  
+[Forbidden Paths](#forbidden-paths)
 
 # 解いた問題
 
@@ -309,3 +310,13 @@ cookie を変更するだけ
 ## 学び
 
 特になし
+
+## Forbidden Paths
+
+## 解き方
+
+現在のパスと行きたい場所のパスがわかるので相対パスを入力する
+
+## 学び
+
+- 特になし
