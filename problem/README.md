@@ -23,7 +23,8 @@
 [Includes](#includes)  
 [Local Authority](#local-authority)  
 [Some Assembly Required 1](#some-assembly-required-1)  
-[picobrowser](#picobrowser)
+[picobrowser](#picobrowser)  
+[Power Cookie](#power-cookie)
 
 # 解いた問題
 
@@ -298,3 +299,13 @@ curl でアクセスしてるブラウザを picobrowser にすると flag が�
 ## 学び
 
 - curl でブラウザ変更するの典型ぽい
+
+## Power Cookie
+
+## 解き方
+
+cookie を変更するだけ
+
+## 学び
+
+特になし
