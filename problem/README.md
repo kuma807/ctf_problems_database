@@ -22,7 +22,8 @@
 [login](#login)  
 [Includes](#includes)  
 [Local Authority](#local-authority)  
-[Some Assembly Required 1](#some-assembly-required-1)
+[Some Assembly Required 1](#some-assembly-required-1)  
+[picobrowser](#picobrowser)
 
 # 解いた問題
 
@@ -287,3 +288,13 @@ js 解読してたけど wasm ファイルに flag 書いてあった。
 ## 学び
 
 - すぐ js の解読開始するのではなく全体を一回見るの大切かも
+
+## picobrowser
+
+## 解き方
+
+curl でアクセスしてるブラウザを picobrowser にすると flag が見れる。
+
+## 学び
+
+- curl でブラウザ変更するの典型ぽい

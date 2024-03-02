@@ -185,7 +185,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [ARMssembly 4](https://play.picoctf.org/practice/challenge/183)                     | picoCTF 2021                  | Reverse Engineering |      65% |    981 |    170 | ❌     |
 | [Powershelly](https://play.picoctf.org/practice/challenge/119)                      | picoCTF 2021                  | Reverse Engineering |      37% |    520 |    180 | ❌     |
 | [la cifra de](https://play.picoctf.org/practice/challenge/3)                        | picoCTF 2019                  | Cryptography        |      76% |  11151 |    200 | ❌     |
-| [picobrowser](https://play.picoctf.org/practice/challenge/9)                        | picoCTF 2019                  | Web Exploitation    |      88% |  26534 |    200 | ❌     |
+| [picobrowser](https://play.picoctf.org/practice/challenge/9)                        | picoCTF 2019                  | Web Exploitation    |      88% |  26534 |    200 | ✅     |
 | [asm1](https://play.picoctf.org/practice/challenge/20)                              | picoCTF 2019                  | Reverse Engineering |      59% |   4863 |    200 | ❌     |
 | [Tapping](https://play.picoctf.org/practice/challenge/21)                           | picoCTF 2019                  | Cryptography        |      51% |  14709 |    200 | ❌     |
 | [Flags](https://play.picoctf.org/practice/challenge/31)                             | picoCTF 2019                  | Cryptography        |      53% |  16011 |    200 | ❌     |
