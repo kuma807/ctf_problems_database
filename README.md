@@ -209,7 +209,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [Power Cookie](https://play.picoctf.org/practice/challenge/288)                     | picoCTF 2022                  | Web Exploitation    |      92% |  20457 |    200 | ✅     |
 | [Roboto Sans](https://play.picoctf.org/practice/challenge/291)                      | picoCTF 2022                  | Web Exploitation    |      41% |  14748 |    200 | ❌     |
 | [RPS](https://play.picoctf.org/practice/challenge/293)                              | picoCTF 2022                  | Binary Exploitation |      95% |   6682 |    200 | ❌     |
-| [Secrets](https://play.picoctf.org/practice/challenge/296)                          | picoCTF 2022                  | Web Exploitation    |      67% |  14936 |    200 | ❌     |
+| [Secrets](https://play.picoctf.org/practice/challenge/296)                          | picoCTF 2022                  | Web Exploitation    |      67% |  14936 |    200 | ✅     |
 | [Sleuthkit Apprentice](https://play.picoctf.org/practice/challenge/300)             | picoCTF 2022                  | Forensics           |      92% |   7754 |    200 | ❌     |
 | [SQL Direct](https://play.picoctf.org/practice/challenge/303)                       | picoCTF 2022                  | Web Exploitation    |      88% |  12061 |    200 | ❌     |
 | [x-sixty-what](https://play.picoctf.org/practice/challenge/319)                     | picoCTF 2022                  | Binary Exploitation |      82% |   2622 |    200 | ❌     |

@@ -28,7 +28,8 @@
 [Forbidden Paths](#forbidden-paths)  
 [It is my Birthday](#it-is-my-birthday)  
 [Client-side-again](#client-side-again)  
-[Irish-Name-Repo 1](#irish-name-repo-1)
+[Irish-Name-Repo 1](#irish-name-repo-1)  
+[Secrets](#secrets)
 
 # 解いた問題
 
@@ -357,3 +358,13 @@ password に ' OR '1'='1 を入れるか、username に ' or 1 == 1 -- を入れ
 
 - sql に -- を入れるとその行のそれ以降の文字がコメントアウトされる
 - sql の and は or より早く確認される
+
+## Secrets
+
+## 解き方
+
+開発者モードで source を見ると css が secret っていうファイルにあるため/secret/にアクセスするとページが現れる。移行繰り返しで flag が見つかる。
+
+## 学び
+
+- http://saturn.picoctf.net:62050/secretとhttp://saturn.picoctf.net:62050/secret/では大きな違いがある。この形式のURLは、secretという名前のディレクトリにアクセスしようとしていることを示しています。この場合、ウェブサーバーは通常、そのディレクトリ内のデフォルトのインデックスファイル（例: index.html や index.php など）を返します。
