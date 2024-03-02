@@ -20,7 +20,8 @@
 [logon](#logon)  
 [Inspect HTML](#inspect-html)  
 [login](#login)  
-[Includes](#includes)
+[Includes](#includes)  
+[Local Authority](#local-authority)
 
 # 解いた問題
 
@@ -261,6 +262,16 @@ js を見ると base64 エンコードされたパスワードが見つかから
 ## 解き方
 
 js,css を見るだけ
+
+## 学び
+
+特になし
+
+## Local Authority
+
+## 解き方
+
+js を読んでログインパスワードをゲットする
 
 ## 学び
 
