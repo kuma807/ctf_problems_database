@@ -247,7 +247,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [miniRSA](https://play.picoctf.org/practice/challenge/73)                           | picoCTF 2019                  | Cryptography        |      77% |   3287 |    300 | ❌     |
 | [vault-door-5](https://play.picoctf.org/practice/challenge/77)                      | picoCTF 2019                  | Reverse Engineering |      92% |   4738 |    300 | ❌     |
 | [reverse_cipher](https://play.picoctf.org/practice/challenge/79)                    | picoCTF 2019                  | Reverse Engineering |      78% |   1446 |    300 | ❌     |
-| [Irish-Name-Repo 1](https://play.picoctf.org/practice/challenge/80)                 | picoCTF 2019                  | Web Exploitation    |      91% |  15802 |    300 | ❌     |
+| [Irish-Name-Repo 1](https://play.picoctf.org/practice/challenge/80)                 | picoCTF 2019                  | Web Exploitation    |      91% |  15802 |    300 | ✅     |
 | [shark on wire 2](https://play.picoctf.org/practice/challenge/84)                   | picoCTF 2019                  | Forensics           |      43% |   3445 |    300 | ❌     |
 | [Guessing Game 2](https://play.picoctf.org/practice/challenge/89)                   | picoCTF 2020 Mini-Competition | Binary Exploitation |      62% |    397 |    300 | ❌     |
 | [OTP Implementation](https://play.picoctf.org/practice/challenge/92)                | picoCTF 2020 Mini-Competition | Reverse Engineering |      73% |    700 |    300 | ❌     |

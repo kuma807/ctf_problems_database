@@ -27,7 +27,8 @@
 [Power Cookie](#power-cookie)  
 [Forbidden Paths](#forbidden-paths)  
 [It is my Birthday](#it-is-my-birthday)  
-[Client-side-again](#client-side-again)
+[Client-side-again](#client-side-again)  
+[Irish-Name-Repo 1](#irish-name-repo-1)
 
 # 解いた問題
 
@@ -344,3 +345,15 @@ html に書いてある配列を元に flag を予想した。正規手順とし
 ## 学び
 
 - html,js を解析するときは実際に動かそう
+
+## Irish-Name-Repo 1
+
+## 解き方
+
+サイトの support ページを見ると sql が実行されてるのがわかるので、sql インジェクションをする
+password に ' OR '1'='1 を入れるか、username に ' or 1 == 1 -- を入れるといける
+
+## 学び
+
+- sql に -- を入れるとその行のそれ以降の文字がコメントアウトされる
+- sql の and は or より早く確認される
