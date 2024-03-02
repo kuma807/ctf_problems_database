@@ -48,7 +48,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [New Caesar](https://play.picoctf.org/practice/challenge/158)                       | picoCTF 2021                  | Cryptography        |      57% |   7604 |     60 | ❌     |
 | [ARMssembly 1](https://play.picoctf.org/practice/challenge/111)                     | picoCTF 2021                  | Reverse Engineering |      58% |   3237 |     70 | ❌     |
 | [Cache Me Outside](https://play.picoctf.org/practice/challenge/146)                 | picoCTF 2021                  | Binary Exploitation |      63% |   1947 |     70 | ❌     |
-| [Some Assembly Required 1](https://play.picoctf.org/practice/challenge/152)         | picoCTF 2021                  | Web Exploitation    |      62% |  26882 |     70 | ❌     |
+| [Some Assembly Required 1](https://play.picoctf.org/practice/challenge/152)         | picoCTF 2021                  | Web Exploitation    |      62% |  26882 |     70 | ✅     |
 | [Mini RSA](https://play.picoctf.org/practice/challenge/188)                         | picoCTF 2021                  | Cryptography        |      75% |   5170 |     70 | ❌     |
 | [Dachshund Attacks](https://play.picoctf.org/practice/challenge/159)                | picoCTF 2021                  | Cryptography        |      79% |   6641 |     80 | ❌     |
 | [Trivial Flag Transfer Protocol](https://play.picoctf.org/practice/challenge/103)   | picoCTF 2021                  | Forensics           |      85% |  10115 |     90 | ❌     |

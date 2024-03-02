@@ -21,7 +21,8 @@
 [Inspect HTML](#inspect-html)  
 [login](#login)  
 [Includes](#includes)  
-[Local Authority](#local-authority)
+[Local Authority](#local-authority)  
+[Some Assembly Required 1](#some-assembly-required-1)
 
 # 解いた問題
 
@@ -276,3 +277,13 @@ js を読んでログインパスワードをゲットする
 ## 学び
 
 特になし
+
+## Some Assembly Required 1
+
+## 解き方
+
+js 解読してたけど wasm ファイルに flag 書いてあった。
+
+## 学び
+
+- すぐ js の解読開始するのではなく全体を一回見るの大切かも
