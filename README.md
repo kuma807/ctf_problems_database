@@ -110,7 +110,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [rail-fence](https://play.picoctf.org/practice/challenge/289)                       | picoCTF 2022                  | Cryptography        |      76% |  11176 |    100 | ❌     |
 | [Redaction gone wrong](https://play.picoctf.org/practice/challenge/290)             | picoCTF 2022                  | Forensics           |      87% |  14807 |    100 | ❌     |
 | [Safe Opener](https://play.picoctf.org/practice/challenge/294)                      | picoCTF 2022                  | Reverse Engineering |      90% |  14283 |    100 | ❌     |
-| [Search source](https://play.picoctf.org/practice/challenge/295)                    | picoCTF 2022                  | Web Exploitation    |      52% |  24330 |    100 | ❌     |
+| [Search source](https://play.picoctf.org/practice/challenge/295)                    | picoCTF 2022                  | Web Exploitation    |      52% |  24330 |    100 | ✅     |
 | [Sleuthkit Intro](https://play.picoctf.org/practice/challenge/301)                  | picoCTF 2022                  | Forensics           |      79% |  12535 |    100 | ❌     |
 | [substitution0](https://play.picoctf.org/practice/challenge/307)                    | picoCTF 2022                  | Cryptography        |      85% |  14307 |    100 | ❌     |
 | [substitution1](https://play.picoctf.org/practice/challenge/308)                    | picoCTF 2022                  | Cryptography        |      30% |   9974 |    100 | ❌     |
