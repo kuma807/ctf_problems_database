@@ -17,7 +17,8 @@
 [Who are you?](#who-are-you?)  
 [where are the robots](#where-are-the-robots)  
 [dont-use-client-side](#dont-use-client-side)  
-[logon](#logon)
+[logon](#logon)  
+[Inspect HTML](#inspect-html)
 
 # 解いた問題
 
@@ -232,3 +233,13 @@ username は変える必要がなかったらしく、admin=True だけで flag 
 ## 学び
 
 - cookie の情報だけで処理を変えるのは良くない
+
+## Inspect HTML
+
+## 解き方
+
+html を見るだけ
+
+## 学び
+
+特になし
