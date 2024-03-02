@@ -18,7 +18,8 @@
 [where are the robots](#where-are-the-robots)  
 [dont-use-client-side](#dont-use-client-side)  
 [logon](#logon)  
-[Inspect HTML](#inspect-html)
+[Inspect HTML](#inspect-html)  
+[login](#login)
 
 # 解いた問題
 
@@ -243,3 +244,13 @@ html を見るだけ
 ## 学び
 
 特になし
+
+## login
+
+## 解き方
+
+js を見ると base64 エンコードされたパスワードが見つかからそれをデコードする
+
+## 学び
+
+- base64 とはすべてのデータをアルファベット(a~z, A~z)と数字(0~9)、一部の記号(+,/)の 64 文字で表すエンコード方式

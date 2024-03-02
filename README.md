@@ -73,7 +73,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [Who are you?](https://play.picoctf.org/practice/challenge/142)                     | picoCTF 2021                  | Web Exploitation    |      69% |  18845 |    100 | ✅     |
 | [Hurry up! Wait!](https://play.picoctf.org/practice/challenge/165)                  | picoCTF 2021                  | Reverse Engineering |      48% |   2281 |    100 | ❌     |
 | [Unsubscriptions Are Free](https://play.picoctf.org/practice/challenge/187)         | picoCTF 2021                  | Binary Exploitation |      74% |   1688 |    100 | ❌     |
-| [login](https://play.picoctf.org/practice/challenge/200)                            | picoMini by redpwn            | Web Exploitation    |      88% |  35583 |    100 | ❌     |
+| [login](https://play.picoctf.org/practice/challenge/200)                            | picoMini by redpwn            | Web Exploitation    |      88% |  35583 |    100 | ✅     |
 | [advanced-potion-making](https://play.picoctf.org/practice/challenge/205)           | picoMini by redpwn            | Forensics           |      54% |   5785 |    100 | ❌     |
 | [spelling-quiz](https://play.picoctf.org/practice/challenge/210)                    | picoMini by redpwn            | Cryptography        |      71% |   3727 |    100 | ❌     |
 | [Codebook](https://play.picoctf.org/practice/challenge/238)                         | Beginner picoMini 2022        | General Skills      |      64% |  42200 |    100 | ❌     |
