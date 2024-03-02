@@ -64,7 +64,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [logon](https://play.picoctf.org/practice/challenge/46)                             | picoCTF 2019                  | Web Exploitation    |      88% |  50744 |    100 | ❌     |
 | [13](https://play.picoctf.org/practice/challenge/62)                                | picoCTF 2019                  | Cryptography        |      85% |  48643 |    100 | ❌     |
 | [caesar](https://play.picoctf.org/practice/challenge/64)                            | picoCTF 2019                  | Cryptography        |      56% |  40458 |    100 | ❌     |
-| [dont-use-client-side](https://play.picoctf.org/practice/challenge/66)              | picoCTF 2019                  | Web Exploitation    |      84% |  51051 |    100 | ❌     |
+| [dont-use-client-side](https://play.picoctf.org/practice/challenge/66)              | picoCTF 2019                  | Web Exploitation    |      84% |  51051 |    100 | ✅     |
 | [Bases](https://play.picoctf.org/practice/challenge/67)                             | picoCTF 2019                  | General Skills      |      82% |  60487 |    100 | ❌     |
 | [First Grep](https://play.picoctf.org/practice/challenge/85)                        | picoCTF 2019                  | General Skills      |      90% |  62087 |    100 | ❌     |
 | [Pixelated](https://play.picoctf.org/practice/challenge/100)                        | picoCTF 2021                  | Cryptography        |      70% |   6570 |    100 | ❌     |
