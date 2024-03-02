@@ -56,7 +56,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [ARMssembly 2](https://play.picoctf.org/practice/challenge/150)                     | picoCTF 2021                  | Reverse Engineering |      73% |   2411 |     90 | ❌     |
 | [No Padding, No Problem](https://play.picoctf.org/practice/challenge/154)           | picoCTF 2021                  | Cryptography        |      81% |   3211 |     90 | ❌     |
 | [Here's a LIBC](https://play.picoctf.org/practice/challenge/179)                    | picoCTF 2021                  | Binary Exploitation |      85% |   1745 |     90 | ❌     |
-| [where are the robots](https://play.picoctf.org/practice/challenge/4)               | picoCTF 2019                  | Web Exploitation    |      84% |  67205 |    100 | ❌     |
+| [where are the robots](https://play.picoctf.org/practice/challenge/4)               | picoCTF 2019                  | Web Exploitation    |      84% |  67205 |    100 | ✅     |
 | [vault-door-1](https://play.picoctf.org/practice/challenge/12)                      | picoCTF 2019                  | Reverse Engineering |      54% |  26663 |    100 | ❌     |
 | [what's a net cat?](https://play.picoctf.org/practice/challenge/34)                 | picoCTF 2019                  | General Skills      |      85% |  86284 |    100 | ❌     |
 | [strings it](https://play.picoctf.org/practice/challenge/37)                        | picoCTF 2019                  | General Skills      |      79% |  65154 |    100 | ❌     |

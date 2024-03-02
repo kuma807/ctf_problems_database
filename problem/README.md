@@ -14,7 +14,8 @@
 [2Warm](#2warm)  
 [PW Crack 1](#pw-crack-1)  
 [Wireshark doo dooo do doo...](#wireshark-doo-dooo-do-doo...)  
-[Who are you?](#who-are-you?)
+[Who are you?](#who-are-you?)  
+[where are the robots](#where-are-the-robots)
 
 # 解いた問題
 
@@ -196,3 +197,15 @@ curl を使って使ってるウェブブラウザ、日付、追跡されない
 ## 学び
 
 - curl を使うと http ヘッダを操作できる
+
+## where are the robots
+
+## 解き方
+
+robots.txt にアクセスして disallow になってるページに行くと flag がある
+
+## 学び
+
+- robots.txt とは、収集されたくないコンテンツをクロールされないように制御するファイル
+- robots.txt は User-Agent、Disallow、Sitemap を指定する。User-Agent は、どのクローラーの動きを制御するかを指定、Disallow は、クローラーのアクセスを制御するファイルを指定、Sitemap は、sitemap.xml の場所をクローラーに伝える。
+- Sitemap は Web サイト内の各ページ情報（URL や優先度、最終更新日、更新頻度などの情報）を検索エンジン向けに記載した XML 形式のファイル
