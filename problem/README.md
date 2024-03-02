@@ -25,7 +25,8 @@
 [Some Assembly Required 1](#some-assembly-required-1)  
 [picobrowser](#picobrowser)  
 [Power Cookie](#power-cookie)  
-[Forbidden Paths](#forbidden-paths)
+[Forbidden Paths](#forbidden-paths)  
+[It is my Birthday](#it-is-my-birthday)
 
 # 解いた問題
 
@@ -320,3 +321,15 @@ cookie を変更するだけ
 ## 学び
 
 - 特になし
+
+## It is my Birthday
+
+## 解き方
+
+md5 で衝突するデータを見つけてきたそれを pdf に保存する
+https://www.softel.co.jp/blogs/tech/archives/7212
+
+## 学び
+
+- md5 とは、任意の長さの原文を元に 128 ビットの値を生成するハッシュ関数（要約関数）の一つ。生成された値はハッシュ値（MD5 ハッシュ）と呼ばれる。
+- md5 はハッシュの衝突する値が見つけられるようになって最近は SHA-256 が代わりに使われる

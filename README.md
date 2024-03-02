@@ -68,7 +68,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [Bases](https://play.picoctf.org/practice/challenge/67)                             | picoCTF 2019                  | General Skills      |      82% |  60487 |    100 | ❌     |
 | [First Grep](https://play.picoctf.org/practice/challenge/85)                        | picoCTF 2019                  | General Skills      |      90% |  62087 |    100 | ❌     |
 | [Pixelated](https://play.picoctf.org/practice/challenge/100)                        | picoCTF 2021                  | Cryptography        |      70% |   6570 |    100 | ❌     |
-| [It is my Birthday](https://play.picoctf.org/practice/challenge/109)                | picoCTF 2021                  | Web Exploitation    |      73% |  17498 |    100 | ❌     |
+| [It is my Birthday](https://play.picoctf.org/practice/challenge/109)                | picoCTF 2021                  | Web Exploitation    |      73% |  17498 |    100 | ✅     |
 | [Wireshark twoo twooo two twoo...](https://play.picoctf.org/practice/challenge/110) | picoCTF 2021                  | Forensics           |      37% |   7995 |    100 | ❌     |
 | [Who are you?](https://play.picoctf.org/practice/challenge/142)                     | picoCTF 2021                  | Web Exploitation    |      69% |  18845 |    100 | ✅     |
 | [Hurry up! Wait!](https://play.picoctf.org/practice/challenge/165)                  | picoCTF 2021                  | Reverse Engineering |      48% |   2281 |    100 | ❌     |
