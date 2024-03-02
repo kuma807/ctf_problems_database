@@ -100,7 +100,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [file-run2](https://play.picoctf.org/practice/challenge/267)                        | picoCTF 2022                  | Reverse Engineering |      72% |  17272 |    100 | ❌     |
 | [File types](https://play.picoctf.org/practice/challenge/268)                       | picoCTF 2022                  | Forensics           |      20% |   8006 |    100 | ❌     |
 | [GDB Test Drive](https://play.picoctf.org/practice/challenge/273)                   | picoCTF 2022                  | Reverse Engineering |      84% |  12264 |    100 | ❌     |
-| [Includes](https://play.picoctf.org/practice/challenge/274)                         | picoCTF 2022                  | Web Exploitation    |      77% |  34621 |    100 | ❌     |
+| [Includes](https://play.picoctf.org/practice/challenge/274)                         | picoCTF 2022                  | Web Exploitation    |      77% |  34621 |    100 | ✅     |
 | [Inspect HTML](https://play.picoctf.org/practice/challenge/275)                     | picoCTF 2022                  | Web Exploitation    |      69% |  40941 |    100 | ✅     |
 | [Local Authority](https://play.picoctf.org/practice/challenge/278)                  | picoCTF 2022                  | Web Exploitation    |      91% |  31485 |    100 | ❌     |
 | [Lookey here](https://play.picoctf.org/practice/challenge/279)                      | picoCTF 2022                  | Forensics           |      84% |  19823 |    100 | ❌     |
