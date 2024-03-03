@@ -31,7 +31,8 @@
 [Irish-Name-Repo 1](#irish-name-repo-1)  
 [Secrets](#secrets)  
 [Roboto Sans](#roboto-sans)  
-[caas](#caas)
+[caas](#caas)  
+[SQLiLite](#sqlilite)
 
 # 解いた問題
 
@@ -391,3 +392,13 @@ robots.txt に行くと base64 の文字があるのでデコードするとア�
 
 - コマンドインジェクションで&とか;が使える
 - ユーザーの入力を元にコマンド実行するの危険かも
+
+## SQLiLite
+
+## 解き方
+
+sql インジェクションをするとログインできる。' OR '1'='1
+
+## 学び
+
+特になし

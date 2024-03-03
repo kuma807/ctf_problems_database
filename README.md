@@ -264,7 +264,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [flag leak](https://play.picoctf.org/practice/challenge/269)                        | picoCTF 2022                  | Binary Exploitation |      70% |   2461 |    300 | ❌     |
 | [Operation Oni](https://play.picoctf.org/practice/challenge/284)                    | picoCTF 2022                  | Forensics           |      88% |   2971 |    300 | ❌     |
 | [ropfu](https://play.picoctf.org/practice/challenge/292)                            | picoCTF 2022                  | Binary Exploitation |      84% |   1522 |    300 | ❌     |
-| [SQLiLite](https://play.picoctf.org/practice/challenge/304)                         | picoCTF 2022                  | Web Exploitation    |      91% |  12584 |    300 | ❌     |
+| [SQLiLite](https://play.picoctf.org/practice/challenge/304)                         | picoCTF 2022                  | Web Exploitation    |      91% |  12584 |    300 | ✅     |
 | [St3g0](https://play.picoctf.org/practice/challenge/305)                            | picoCTF 2022                  | Forensics           |      55% |   5820 |    300 | ❌     |
 | [unpackme](https://play.picoctf.org/practice/challenge/313)                         | picoCTF 2022                  | Reverse Engineering |      87% |   3645 |    300 | ❌     |
 | [Very Smooth](https://play.picoctf.org/practice/challenge/315)                      | picoCTF 2022                  | Cryptography        |      75% |   1177 |    300 | ❌     |
