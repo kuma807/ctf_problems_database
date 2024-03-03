@@ -122,7 +122,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [Big Zip](https://play.picoctf.org/practice/challenge/322)                          |                               | General Skills      |      93% |  22731 |    100 | ❌     |
 | [babygame01](https://play.picoctf.org/practice/challenge/345)                       | picoCTF 2023                  | Binary Exploitation |      44% |   2991 |    100 | ❌     |
 | [chrono](https://play.picoctf.org/practice/challenge/347)                           | picoCTF 2023                  | General Skills      |      32% |  12258 |    100 | ❌     |
-| [findme](https://play.picoctf.org/practice/challenge/349)                           | picoCTF 2023                  | Web Exploitation    |      59% |  12263 |    100 | ❌     |
+| [findme](https://play.picoctf.org/practice/challenge/349)                           | picoCTF 2023                  | Web Exploitation    |      59% |  12263 |    100 | ✅     |
 | [hideme](https://play.picoctf.org/practice/challenge/350)                           | picoCTF 2023                  | Forensics           |      54% |   8752 |    100 | ❌     |
 | [HideToSee](https://play.picoctf.org/practice/challenge/351)                        | picoCTF 2023                  | Cryptography        |      26% |   6522 |    100 | ❌     |
 | [MatchTheRegex](https://play.picoctf.org/practice/challenge/356)                    | picoCTF 2023                  | Web Exploitation    |      49% |  11492 |    100 | ❌     |

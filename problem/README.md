@@ -32,7 +32,8 @@
 [Secrets](#secrets)  
 [Roboto Sans](#roboto-sans)  
 [caas](#caas)  
-[SQLiLite](#sqlilite)
+[SQLiLite](#sqlilite)  
+[findme](#findme)
 
 # 解いた問題
 
@@ -402,3 +403,15 @@ sql インジェクションをするとログインできる。' OR '1'='1
 ## 学び
 
 特になし
+
+## findme
+
+## 解き方
+
+サイトに redirected されたという情報があるので curl でアクセスしてリダイレクトがどうなてるか調べる。するとリダイレクトする前のページの id に flag が含まれてる。
+burp を使うと簡単に redirect の経路とかがわかる。
+
+## 学び
+
+- burp が神と話題
+- 通信で何が行われてるか確認した方がいい
