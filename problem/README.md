@@ -37,7 +37,8 @@
 [MatchTheRegex](#matchtheregex)  
 [Irish-Name-Repo 2](#irish-name-repo-2)  
 [Web Gauntlet](#web-gauntlet)  
-[Irish-Name-Repo 3](#irish-name-repo-3)
+[Irish-Name-Repo 3](#irish-name-repo-3)  
+[SOAP](#soap)
 
 # 解いた問題
 
@@ -462,3 +463,16 @@ burp で送ったリクエストを見ると debug っていう項目がある�
 - burp をうまく使うとリクエストの編集ができる。burp を常に使って送ったリクエストの確認をしよう
 - send to repeater もリクエストを編集できて便利
 - intersept = true にすると送る前にリクエストを編集できる
+
+## SOAP
+
+## 解き方
+
+送信されてる xml を見て xml インジェクションを行う。外部ファイルを参照するために<!DOCTYPE foo [
+
+<!ENTITY xxe SYSTEM "file:///etc/passwd" >]>を書いて&xxe;でアクセスする。
+
+## 学び
+
+- xml インジェクションについて学んだ
+- xml は外部のファイルの参照とかができる、json みたいなデータ形式

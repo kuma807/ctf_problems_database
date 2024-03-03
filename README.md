@@ -135,7 +135,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [Reverse](https://play.picoctf.org/practice/challenge/372)                          | picoCTF 2023                  | Reverse Engineering |      78% |  10056 |    100 | ❌     |
 | [rotation](https://play.picoctf.org/practice/challenge/373)                         | picoCTF 2023                  | Cryptography        |      89% |  10888 |    100 | ❌     |
 | [Safe Opener 2](https://play.picoctf.org/practice/challenge/375)                    | picoCTF 2023                  | Reverse Engineering |      70% |   8963 |    100 | ❌     |
-| [SOAP](https://play.picoctf.org/practice/challenge/376)                             | picoCTF 2023                  | Web Exploitation    |      82% |   7100 |    100 | ❌     |
+| [SOAP](https://play.picoctf.org/practice/challenge/376)                             | picoCTF 2023                  | Web Exploitation    |      82% |   7100 |    100 | ✅     |
 | [timer](https://play.picoctf.org/practice/challenge/381)                            | picoCTF 2023                  | Reverse Engineering |      55% |   5672 |    100 | ❌     |
 | [two-sum](https://play.picoctf.org/practice/challenge/382)                          | picoCTF 2023                  | Binary Exploitation |      80% |   5158 |    100 | ❌     |
 | [useless](https://play.picoctf.org/practice/challenge/384)                          | picoCTF 2023                  | General Skills      |      42% |  10778 |    100 | ❌     |
