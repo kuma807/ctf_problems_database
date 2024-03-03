@@ -173,7 +173,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [What Lies Within](https://play.picoctf.org/practice/challenge/74)                  | picoCTF 2019                  | Forensics           |      75% |  18100 |    150 | ❌     |
 | [Let's get dynamic](https://play.picoctf.org/practice/challenge/102)                | picoCTF 2021                  | Reverse Engineering |      58% |   1075 |    150 | ❌     |
 | [Most Cookies](https://play.picoctf.org/practice/challenge/177)                     | picoCTF 2021                  | Web Exploitation    |      83% |   4724 |    150 | ❌     |
-| [caas](https://play.picoctf.org/practice/challenge/202)                             | picoMini by redpwn            | Web Exploitation    |      95% |  12661 |    150 | ❌     |
+| [caas](https://play.picoctf.org/practice/challenge/202)                             | picoMini by redpwn            | Web Exploitation    |      95% |  12661 |    150 | ✅     |
 | [XtraORdinary](https://play.picoctf.org/practice/challenge/208)                     | picoMini by redpwn            | Cryptography        |      81% |   1176 |    150 | ❌     |
 | [triple-secure](https://play.picoctf.org/practice/challenge/209)                    | picoMini by redpwn            | Cryptography        |      87% |   1283 |    150 | ❌     |
 | [clutter-overflow](https://play.picoctf.org/practice/challenge/216)                 | picoMini by redpwn            | Binary Exploitation |      86% |   3090 |    150 | ❌     |

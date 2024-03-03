@@ -30,7 +30,8 @@
 [Client-side-again](#client-side-again)  
 [Irish-Name-Repo 1](#irish-name-repo-1)  
 [Secrets](#secrets)  
-[Roboto Sans](#roboto-sans)
+[Roboto Sans](#roboto-sans)  
+[caas](#caas)
 
 # 解いた問題
 
@@ -379,3 +380,14 @@ robots.txt に行くと base64 の文字があるのでデコードするとア�
 ## 学び
 
 - base64 とは、64 進数を意味する言葉で、すべてのデータをアルファベット(a~z, A~z)と数字(0~9)、一部の記号(+,/)の 64 文字で表すエンコード方式です。またパディングのために=が末尾に使用されることがある。
+
+## caas
+
+## 解き方
+
+与えられた js のコードを見るとコマンドを実行してるのでコマンドインジェクションをする。cowsay hi & ls, cowsay hi & cat falg.txt の二つのコマンドを実行して flag を取得した
+
+## 学び
+
+- コマンドインジェクションで&とか;が使える
+- ユーザーの入力を元にコマンド実行するの危険かも
