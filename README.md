@@ -280,7 +280,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [WebNet0](https://play.picoctf.org/practice/challenge/32)                           | picoCTF 2019                  | Forensics           |      90% |   3130 |    350 | ❌     |
 | [vault-door-6](https://play.picoctf.org/practice/challenge/45)                      | picoCTF 2019                  | Reverse Engineering |      93% |   3529 |    350 | ❌     |
 | [seed-sPRiNG](https://play.picoctf.org/practice/challenge/50)                       | picoCTF 2019                  | Binary Exploitation |      62% |    536 |    350 | ❌     |
-| [Irish-Name-Repo 2](https://play.picoctf.org/practice/challenge/59)                 | picoCTF 2019                  | Web Exploitation    |      85% |  11364 |    350 | ❌     |
+| [Irish-Name-Repo 2](https://play.picoctf.org/practice/challenge/59)                 | picoCTF 2019                  | Web Exploitation    |      85% |  11364 |    350 | ✅     |
 | [1_wanna_b3_a_r0ck5tar](https://play.picoctf.org/practice/challenge/82)             | picoCTF 2019                  | General Skills      |      18% |  15721 |    350 | ❌     |
 | [Download Horsepower](https://play.picoctf.org/practice/challenge/135)              | picoCTF 2021                  | Binary Exploitation |      88% |    125 |    350 | ❌     |
 | [corrupt-key-1](https://play.picoctf.org/practice/challenge/207)                    | picoMini by redpwn            | Cryptography        |      61% |    155 |    350 | ❌     |

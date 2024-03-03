@@ -34,7 +34,8 @@
 [caas](#caas)  
 [SQLiLite](#sqlilite)  
 [findme](#findme)  
-[MatchTheRegex](#matchtheregex)
+[MatchTheRegex](#matchtheregex)  
+[Irish-Name-Repo 2](#irish-name-repo-2)
 
 # 解いた問題
 
@@ -426,3 +427,13 @@ js に正規表現があるのでそれにマッチする文字を送信する�
 ## 学び
 
 - ^は正規表現の始まりを表し、.は任意の文字を表す
+
+## Irish-Name-Repo 2
+
+## 解き方
+
+' OR '1' = '1 だと sql インジェクションがバレるので admin' --をやるとうまく行く。
+
+## 学び
+
+- 色々な sql インジェクションを学んで対策をすり抜けるのが大事
