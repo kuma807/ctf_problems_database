@@ -33,7 +33,8 @@
 [Roboto Sans](#roboto-sans)  
 [caas](#caas)  
 [SQLiLite](#sqlilite)  
-[findme](#findme)
+[findme](#findme)  
+[MatchTheRegex](#matchtheregex)
 
 # 解いた問題
 
@@ -415,3 +416,13 @@ burp を使うと簡単に redirect の経路とかがわかる。
 
 - burp が神と話題
 - 通信で何が行われてるか確認した方がいい
+
+## MatchTheRegex
+
+## 解き方
+
+js に正規表現があるのでそれにマッチする文字を送信すると flag がもらえる。
+
+## 学び
+
+- ^は正規表現の始まりを表し、.は任意の文字を表す

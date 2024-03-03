@@ -125,7 +125,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [findme](https://play.picoctf.org/practice/challenge/349)                           | picoCTF 2023                  | Web Exploitation    |      59% |  12263 |    100 | ✅     |
 | [hideme](https://play.picoctf.org/practice/challenge/350)                           | picoCTF 2023                  | Forensics           |      54% |   8752 |    100 | ❌     |
 | [HideToSee](https://play.picoctf.org/practice/challenge/351)                        | picoCTF 2023                  | Cryptography        |      26% |   6522 |    100 | ❌     |
-| [MatchTheRegex](https://play.picoctf.org/practice/challenge/356)                    | picoCTF 2023                  | Web Exploitation    |      49% |  11492 |    100 | ❌     |
+| [MatchTheRegex](https://play.picoctf.org/practice/challenge/356)                    | picoCTF 2023                  | Web Exploitation    |      49% |  11492 |    100 | ✅     |
 | [money-ware](https://play.picoctf.org/practice/challenge/357)                       | picoCTF 2023                  | General Skills      |      38% |  16726 |    100 | ❌     |
 | [PcapPoisoning](https://play.picoctf.org/practice/challenge/362)                    | picoCTF 2023                  | Forensics           |      74% |   9327 |    100 | ❌     |
 | [Permissions](https://play.picoctf.org/practice/challenge/363)                      | picoCTF 2023                  | General Skills      |      58% |  11808 |    100 | ❌     |
