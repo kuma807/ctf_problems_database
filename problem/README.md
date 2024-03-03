@@ -36,7 +36,8 @@
 [findme](#findme)  
 [MatchTheRegex](#matchtheregex)  
 [Irish-Name-Repo 2](#irish-name-repo-2)  
-[Web Gauntlet](#web-gauntlet)
+[Web Gauntlet](#web-gauntlet)  
+[Irish-Name-Repo 3](#irish-name-repo-3)
 
 # 解いた問題
 
@@ -449,3 +450,15 @@ js に正規表現があるのでそれにマッチする文字を送信する�
 
 - ;がそこで sql 文を修了できて良い
 - union を使って複数クエリの結合や||を使った文字列の結合が便利
+
+## Irish-Name-Repo 3
+
+## 解き方
+
+burp で送ったリクエストを見ると debug っていう項目があるので debug=1 にして送り直す。このとき変更したいリクエストを右クリックして send to repeater を選択、左上から repeater を選択するとリクエストを編集・送信できるようになる。編集したリクエストを送ると rot13 で送った文字が変更されてるので、rot13 された' or '1'='1 を送ると flag がもらえる
+
+## 学び
+
+- burp をうまく使うとリクエストの編集ができる。burp を常に使って送ったリクエストの確認をしよう
+- send to repeater もリクエストを編集できて便利
+s

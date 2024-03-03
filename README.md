@@ -289,7 +289,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [Checkpass](https://play.picoctf.org/practice/challenge/149)                        | picoCTF 2021                  | Reverse Engineering |      36% |    177 |    375 | ❌     |
 | [b00tl3gRSA2](https://play.picoctf.org/practice/challenge/2)                        | picoCTF 2019                  | Cryptography        |      87% |   2046 |    400 | ❌     |
 | [asm4](https://play.picoctf.org/practice/challenge/5)                               | picoCTF 2019                  | Reverse Engineering |      86% |    591 |    400 | ❌     |
-| [Irish-Name-Repo 3](https://play.picoctf.org/practice/challenge/8)                  | picoCTF 2019                  | Web Exploitation    |      93% |   8754 |    400 | ❌     |
+| [Irish-Name-Repo 3](https://play.picoctf.org/practice/challenge/8)                  | picoCTF 2019                  | Web Exploitation    |      93% |   8754 |    400 | ✅     |
 | [JaWT Scratchpad](https://play.picoctf.org/practice/challenge/25)                   | picoCTF 2019                  | Web Exploitation    |      72% |   4265 |    400 | ❌     |
 | [Java Script Kiddie](https://play.picoctf.org/practice/challenge/29)                | picoCTF 2019                  | Web Exploitation    |      72% |   1069 |    400 | ❌     |
 | [Need For Speed](https://play.picoctf.org/practice/challenge/39)                    | picoCTF 2019                  | Reverse Engineering |      82% |    928 |    400 | ❌     |
