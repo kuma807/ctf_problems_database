@@ -207,7 +207,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [Forbidden Paths](https://play.picoctf.org/practice/challenge/270)                  | picoCTF 2022                  | Web Exploitation    |      86% |  18483 |    200 | ✅     |
 | [Fresh Java](https://play.picoctf.org/practice/challenge/271)                       | picoCTF 2022                  | Reverse Engineering |      72% |   7637 |    200 | ❌     |
 | [Power Cookie](https://play.picoctf.org/practice/challenge/288)                     | picoCTF 2022                  | Web Exploitation    |      92% |  20473 |    200 | ✅     |
-| [Roboto Sans](https://play.picoctf.org/practice/challenge/291)                      | picoCTF 2022                  | Web Exploitation    |      41% |  14759 |    200 | ❌     |
+| [Roboto Sans](https://play.picoctf.org/practice/challenge/291)                      | picoCTF 2022                  | Web Exploitation    |      41% |  14759 |    200 | ✅     |
 | [RPS](https://play.picoctf.org/practice/challenge/293)                              | picoCTF 2022                  | Binary Exploitation |      95% |   6685 |    200 | ❌     |
 | [Secrets](https://play.picoctf.org/practice/challenge/296)                          | picoCTF 2022                  | Web Exploitation    |      67% |  14943 |    200 | ✅     |
 | [Sleuthkit Apprentice](https://play.picoctf.org/practice/challenge/300)             | picoCTF 2022                  | Forensics           |      92% |   7761 |    200 | ❌     |
