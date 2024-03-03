@@ -196,7 +196,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [rsa-pop-quiz](https://play.picoctf.org/practice/challenge/61)                      | picoCTF 2019                  | Cryptography        |      32% |   2851 |    200 | ❌     |
 | [Client-side-again](https://play.picoctf.org/practice/challenge/69)                 | picoCTF 2019                  | Web Exploitation    |      71% |  17043 |    200 | ✅     |
 | [Pitter, Patter, Platters](https://play.picoctf.org/practice/challenge/87)          | picoCTF 2020 Mini-Competition | Forensics           |      59% |   4374 |    200 | ❌     |
-| [Web Gauntlet](https://play.picoctf.org/practice/challenge/88)                      | picoCTF 2020 Mini-Competition | Web Exploitation    |      83% |  10135 |    200 | ❌     |
+| [Web Gauntlet](https://play.picoctf.org/practice/challenge/88)                      | picoCTF 2020 Mini-Competition | Web Exploitation    |      83% |  10135 |    200 | ✅     |
 | [Kit Engine](https://play.picoctf.org/practice/challenge/168)                       | picoCTF 2021                  | Binary Exploitation |      88% |    338 |    200 | ❌     |
 | [Some Assembly Required 4](https://play.picoctf.org/practice/challenge/182)         | picoCTF 2021                  | Web Exploitation    |      65% |    521 |    200 | ❌     |
 | [scrambled-bytes](https://play.picoctf.org/practice/challenge/206)                  | picoMini by redpwn            | Forensics           |      66% |    746 |    200 | ❌     |

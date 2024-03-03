@@ -35,7 +35,8 @@
 [SQLiLite](#sqlilite)  
 [findme](#findme)  
 [MatchTheRegex](#matchtheregex)  
-[Irish-Name-Repo 2](#irish-name-repo-2)
+[Irish-Name-Repo 2](#irish-name-repo-2)  
+[Web Gauntlet](#web-gauntlet)
 
 # 解いた問題
 
@@ -437,3 +438,14 @@ js に正規表現があるのでそれにマッチする文字を送信する�
 ## 学び
 
 - 色々な sql インジェクションを学んで対策をすり抜けるのが大事
+
+## Web Gauntlet
+
+## 解き方
+
+さまざまな sql インジェクションをする。
+
+## 学び
+
+- ;がそこで sql 文を修了できて良い
+- union を使って複数クエリの結合や||を使った文字列の結合が便利
