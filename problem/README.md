@@ -38,7 +38,8 @@
 [Irish-Name-Repo 2](#irish-name-repo-2)  
 [Web Gauntlet](#web-gauntlet)  
 [Irish-Name-Repo 3](#irish-name-repo-3)  
-[SOAP](#soap)
+[SOAP](#soap)  
+[A little something to get you started](#a-little-something-to-get-you-started)
 
 # 解いた問題
 
@@ -476,3 +477,14 @@ burp で送ったリクエストを見ると debug っていう項目がある�
 
 - xml インジェクションについて学んだ
 - xml は外部のファイルの参照とかができる、json みたいなデータ形式
+
+## A little something to get you started
+
+## 解き方
+
+hacker101  
+network の通信を見ると画像があるのでそれを開くと flag
+
+## 学び
+
+- 特になし
