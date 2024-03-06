@@ -501,7 +501,8 @@ chatgpt でコードの意味を調べていくと strcmp が flag と入力を�
 
 https://github.com/Dvd848/CTFs/blob/master/2021_picoCTF/Some_Assembly_Required_2.md  
 おそらく想定解だけどめっちゃむずいし学びが多い。  
-js を読むと wasm を利用してることがわかる。wasm ファイルがどこにあるかは WebAssembly.instantiate("wasm の中身")という構造のため WebAssembly.instantiate 付近を見ればいい。
+js を読むと wasm を利用してることがわかる。wasm ファイルがどこにあるかは WebAssembly.instantiate("wasm の中身")という構造のため WebAssembly.instantiate 付近を見ればいい。  
+以下のコードは chatgpt に読みやすくしてもらった js からの抜粋。
 
 ```js
 let response = await fetch("./aD8SvhyVkb");
