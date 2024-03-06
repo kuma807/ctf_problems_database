@@ -39,7 +39,8 @@
 [Web Gauntlet](#web-gauntlet)  
 [Irish-Name-Repo 3](#irish-name-repo-3)  
 [SOAP](#soap)  
-[A little something to get you started](#a-little-something-to-get-you-started)
+[A little something to get you started](#a-little-something-to-get-you-started)  
+[Some Assembly Required 2](#some-assembly-required-2)
 
 # 解いた問題
 
@@ -488,3 +489,44 @@ network の通信を見ると画像があるのでそれを開くと flag
 ## 学び
 
 - 特になし
+
+## Some Assembly Required 2
+
+## 解き方
+
+chatgpt でコードの意味を調べていくと strcmp が flag と入力を比較して、ascii でのズレを出力しているぽい。strcmp 関数を console から使って strcmp 関数の出力を見た。wasm ファイルにある flag ぽい文字を入力に入れると 8 という数字が出てくる。
+8 ずれていることがわかるので ascii で"xakgK\5cNs9=8:9l1?im8i<89?00>88k09=nj9kimnu\00\00"の 8 ずらしてみると x が p になって flag ぽい。以降の数字を-8,+8,-8,+8 ってやると picoCTF{まで綺麗に出てくる。それ以降が綺麗に出ないのでこの法則は間違ってそう。wasm のコード内で"8"で検索をかけると近くに xor っていう文字があるので"xakgK\5cNs9=8:9l1?im8i<89?00>88k09=nj9kimnu\00\00"に 8 を xor してみると flag が出てくる。
+
+### 別解
+
+https://github.com/Dvd848/CTFs/blob/master/2021_picoCTF/Some_Assembly_Required_2.md  
+おそらく想定解だけどめっちゃむずいし学びが多い。  
+js を読むと wasm を利用してることがわかる。wasm ファイルがどこにあるかは WebAssembly.instantiate("wasm の中身")という構造のため WebAssembly.instantiate 付近を見ればいい。
+
+```js
+let response = await fetch("./aD8SvhyVkb");
+let wasm = await WebAssembly.instantiate(await response.arrayBuffer());
+```
+
+今回は aD8SvhyVkb というところにファイルがあるためhttp://mercury.picoctf.net:7319/aD8SvhyVkbにアクセすることでファイルを取得できる。ダウンロードしたwasmファイルは次のコマンドで人間にも読めるwatに変換することができる。
+
+```bash
+wasm2wat aD8SvhyVkb.wasm -o aD8SvhyVkb.wat
+```
+
+今回の問題だと/wasm/3e1a8b4a にあるファイルが変換後の wat になっている（なぜ？）
+wat だと読みづらいので疑似コードに変換する（じゃあなんでさっき wat にした？最初から疑似コードにすればいいじゃん）
+
+```bash
+wasm-decompile aD8SvhyVkb.wasm -o aD8SvhyVkb.dcmp
+```
+
+こうするとかなり読みやすくなって 8 の xor が使われてることとかがわかって flag が導ける。
+
+## 学び
+
+- 難読化されたコードを chatgpt に入れるといい感じに読みやすくしてくれる
+- こんな大変なことしなくても"xakgK\5cNs9=8:9l1?im8i<89?00>88k09=nj9kimnu\00\00"を cyberchef に入れて magic の intensive mode を使うと解ける
+- サイトで使われてるファイルは hppts://mercury.picoctf.net:7319/ファイル名　みたいな感じで取得・ダウンロードできる
+- wasm はより読みやすい wat、c 言語、疑似コード に変換できる
+- wasm は高速な実行を目的としたバイナリ命令形式のプログラミング言語、wat は wasm のテキスト形式版

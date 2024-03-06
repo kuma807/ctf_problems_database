@@ -158,7 +158,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [Picker IV](https://play.picoctf.org/practice/challenge/403)                        |                               | Binary Exploitation |      83% |   1365 |    100 | ❌     |
 | [Disk, disk, sleuth!](https://play.picoctf.org/practice/challenge/113)              | picoCTF 2021                  | Forensics           |      81% |   7004 |    110 | ❌     |
 | [Play Nice](https://play.picoctf.org/practice/challenge/114)                        | picoCTF 2021                  | Cryptography        |      34% |   2227 |    110 | ❌     |
-| [Some Assembly Required 2](https://play.picoctf.org/practice/challenge/131)         | picoCTF 2021                  | Web Exploitation    |      50% |   5801 |    110 | ❌     |
+| [Some Assembly Required 2](https://play.picoctf.org/practice/challenge/131)         | picoCTF 2021                  | Web Exploitation    |      50% |   5801 |    110 | ✅     |
 | [gogo](https://play.picoctf.org/practice/challenge/171)                             | picoCTF 2021                  | Reverse Engineering |      57% |   1474 |    110 | ❌     |
 | [Milkslap](https://play.picoctf.org/practice/challenge/139)                         | picoCTF 2021                  | Forensics           |      44% |   4661 |    120 | ❌     |
 | [Double DES](https://play.picoctf.org/practice/challenge/140)                       | picoCTF 2021                  | Cryptography        |      66% |   1182 |    120 | ❌     |
