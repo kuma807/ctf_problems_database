@@ -378,7 +378,7 @@ password に ' OR '1'='1 を入れるか、username に ' or 1 == 1 -- を入れ
 
 ## 学び
 
-- http://saturn.picoctf.net:62050/secretとhttp://saturn.picoctf.net:62050/secret/では大きな違いがある。この形式のURLは、secretという名前のディレクトリにアクセスしようとしていることを示しています。この場合、ウェブサーバーは通常、そのディレクトリ内のデフォルトのインデックスファイル（例: index.html や index.php など）を返します。
+- http://saturn.picoctf.net:62050/secret と http://saturn.picoctf.net:62050/secret/ では大きな違いがある。この形式の URL は、secret という名前のディレクトリにアクセスしようとしていることを示しています。この場合、ウェブサーバーは通常、そのディレクトリ内のデフォルトのインデックスファイル（例: index.html や index.php など）を返します。
 
 ## Roboto Sans
 
@@ -508,7 +508,7 @@ let response = await fetch("./aD8SvhyVkb");
 let wasm = await WebAssembly.instantiate(await response.arrayBuffer());
 ```
 
-今回は aD8SvhyVkb というところにファイルがあるためhttp://mercury.picoctf.net:7319/aD8SvhyVkbにアクセすることでファイルを取得できる。ダウンロードしたwasmファイルは次のコマンドで人間にも読めるwatに変換することができる。
+今回は aD8SvhyVkb というところにファイルがあるため http://mercury.picoctf.net:7319/aD8SvhyVkb にアクセすることでファイルを取得できる。ダウンロードした wasm ファイルは次のコマンドで人間にも読める wat に変換することができる。
 
 ```bash
 wasm2wat aD8SvhyVkb.wasm -o aD8SvhyVkb.wat
