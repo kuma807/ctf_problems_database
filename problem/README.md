@@ -41,7 +41,8 @@
 [SOAP](#soap)  
 [A little something to get you started](#a-little-something-to-get-you-started)  
 [Some Assembly Required 2](#some-assembly-required-2)  
-[Sanity Check Round 44](#sanity-check-round-44)
+[Sanity Check Round 44](#sanity-check-round-44)  
+[kaiser](#kaiser)
 
 # 解いた問題
 
@@ -539,6 +540,16 @@ wasm-decompile aD8SvhyVkb.wasm -o aD8SvhyVkb.dcmp
 
 imaginaryCTF  
 問題文に flag が書いてある
+
+## 学び
+
+特になし
+
+## kaiser
+
+## 解き方
+
+シーザー暗号の key=7。なぜ 7 なのかは不明だし復元した flag も意味のない文字列で不服
 
 ## 学び
 
