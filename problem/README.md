@@ -42,7 +42,8 @@
 [A little something to get you started](#a-little-something-to-get-you-started)  
 [Some Assembly Required 2](#some-assembly-required-2)  
 [Sanity Check Round 44](#sanity-check-round-44)  
-[kaiser](#kaiser)
+[kaiser](#kaiser)  
+[Sleepy](#sleepy)
 
 # 解いた問題
 
@@ -549,7 +550,19 @@ imaginaryCTF
 
 ## 解き方
 
+imaginaryCTF  
 シーザー暗号の key=7。なぜ 7 なのかは不明だし復元した flag も意味のない文字列で不服
+
+## 学び
+
+特になし
+
+## Sleepy
+
+## 解き方
+
+imaginaryCTF  
+コードを読むと sleep が無駄に入ってるので削除すると高速に flag がもとまる。
 
 ## 学び
 
