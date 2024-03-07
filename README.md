@@ -216,7 +216,7 @@ https://greasyfork.org/en/scripts/21373-github-sort-content
 | [babygame02](https://play.picoctf.org/practice/challenge/346)                       | picoCTF 2023                  | Binary Exploitation |      42% |    610 |    200 | ❌     |
 | [FindAndOpen](https://play.picoctf.org/practice/challenge/348)                      | picoCTF 2023                  | Forensics           |      32% |   4004 |    200 | ❌     |
 | [hijacking](https://play.picoctf.org/practice/challenge/352)                        | picoCTF 2023                  | Binary Exploitation |      57% |   1743 |    200 | ❌     |
-| [More SQLi](https://play.picoctf.org/practice/challenge/358)                        | picoCTF 2023                  | Web Exploitation    |      72% |   5699 |    200 | ❌     |
+| [More SQLi](https://play.picoctf.org/practice/challenge/358)                        | picoCTF 2023                  | Web Exploitation    |      72% |   5699 |    200 | ✅     |
 | [MSB](https://play.picoctf.org/practice/challenge/359)                              | picoCTF 2023                  | Forensics           |      83% |   2799 |    200 | ❌     |
 | [No way out](https://play.picoctf.org/practice/challenge/361)                       | picoCTF 2023                  | Reverse Engineering |      57% |   1056 |    200 | ❌     |
 | [PowerAnalysis: Warmup](https://play.picoctf.org/practice/challenge/366)            | picoCTF 2023                  | Cryptography        |      75% |    507 |    200 | ❌     |

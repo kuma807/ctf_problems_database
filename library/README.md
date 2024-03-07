@@ -40,3 +40,7 @@ binwalk -e file
 ```
 strings file
 ```
+
+## SQL インジェクションまとめ
+
+https://blog.hamayanhamayan.com/entry/2021/12/05/115923
