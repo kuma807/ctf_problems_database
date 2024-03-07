@@ -519,6 +519,10 @@ wasm2wat aD8SvhyVkb.wasm -o aD8SvhyVkb.wat
 ```
 
 今回の問題だと/wasm/3e1a8b4a にあるファイルが変換後の wat になっている（なぜ？）
+
+> [!TIP]
+> サーバーからは wasm が送られてくるがブラウザがディスアセンブリして wat に変換している。開発者モードの network を見ればサーバーから wasm が送られてきていることがわかる。
+
 wat だと読みづらいので疑似コードに変換する（じゃあなんでさっき wat にした？最初から疑似コードにすればいいじゃん）
 
 ```bash
@@ -531,7 +535,7 @@ wasm-decompile aD8SvhyVkb.wasm -o aD8SvhyVkb.dcmp
 
 - 難読化されたコードを chatgpt に入れるといい感じに読みやすくしてくれる
 - こんな大変なことしなくても"xakgK\5cNs9=8:9l1?im8i<89?00>88k09=nj9kimnu\00\00"を cyberchef に入れて magic の intensive mode を使うと解ける
-- サイトで使われてるファイルは hppts://mercury.picoctf.net:7319/ファイル名　みたいな感じで取得・ダウンロードできる
+- サイトで使われてるファイルは hppts://mercury.picoctf.net:7319/ファイル名　みたいな感じで取得・ダウンロードできる。開発者モードの network からもサーバーから送られてるファイルの確認・ダウンロードができる。
 - wasm はより読みやすい wat、c 言語、疑似コード に変換できる
 - wasm は高速な実行を目的としたバイナリ命令形式のプログラミング言語、wat は wasm のテキスト形式版
 
