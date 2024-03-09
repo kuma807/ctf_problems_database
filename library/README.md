@@ -44,3 +44,7 @@ strings file
 ## SQL インジェクションまとめ
 
 https://blog.hamayanhamayan.com/entry/2021/12/05/115923
+
+## PHP インジェクションまとめ
+
+https://blog.hamayanhamayan.com/entry/2021/12/18/132236

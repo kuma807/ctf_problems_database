@@ -609,6 +609,8 @@ SQL query: SELECT id FROM users WHERE password = 'a' AND username = 'a'
 
 ## 解き方
 
+Shakti CTF 2024
+
 画面にアクセスすると次のことが画面に表示される。
 
 ```
@@ -660,3 +662,4 @@ Please provide a command
 - php インジェクションで使える文字を制限されてたら文字列の xor とか色々なコマンド調べるのが良い
 - 文字列の xor で作られたものは文字列でコマンドとして実行されない
 - ('a' ^ 'b')('c' ^ 'd')みたいな形で('command')('引数')を作ればコマンド名も xor で作れる
+- このサイトが php インジェクションまとまっててよかった https://blog.hamayanhamayan.com/entry/2021/12/18/132236
