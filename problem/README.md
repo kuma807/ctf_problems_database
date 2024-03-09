@@ -45,7 +45,8 @@
 [kaiser](#kaiser)  
 [Sleepy](#sleepy)  
 [More SQLi](#more-sqli)  
-[Filters](#filters)
+[Filters](#filters)  
+[Find the flag](#find-the-flag)
 
 # 解いた問題
 
@@ -663,3 +664,14 @@ Please provide a command
 - 文字列の xor で作られたものは文字列でコマンドとして実行されない
 - ('a' ^ 'b')('c' ^ 'd')みたいな形で('command')('引数')を作ればコマンド名も xor で作れる
 - このサイトが php インジェクションまとまっててよかった https://blog.hamayanhamayan.com/entry/2021/12/18/132236
+
+## Find the flag
+
+## 解き方
+
+Shakti CTF 2024  
+付属のファイルを読むとリクエストパラメータの test が os.popen(command)で実行されてる。command = f"find {test}"と定義されているため test に; cat flag.txt を入れると flag が得られる。
+
+## 学び
+
+特になし
