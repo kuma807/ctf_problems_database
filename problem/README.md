@@ -46,7 +46,8 @@
 [Sleepy](#sleepy)  
 [More SQLi](#more-sqli)  
 [Filters](#filters)  
-[Find the flag](#find-the-flag)
+[Find the flag](#find-the-flag)  
+[Ultimate spider man](#ultimate-spider-man)
 
 # 解いた問題
 
@@ -675,3 +676,13 @@ Shakti CTF 2024
 ## 学び
 
 特になし
+
+## Ultimate spider man
+
+## 解き方
+
+Shakti CTF 2024  
+画面に表示されてる 4 つ目の商品を買えば良さそうだけどお金が足りない。他の商品を買うときの処理を burp で見ると post request ではお金足りるかの処理をローカルで行って、お金足りたら post id=3 みたいな感じで送信してる。なので burp で id=4 でリクエストを送ると商品 4 を買ったときのリスポンスが帰ってくる。
+商品 4 を買った時に取得できる cookie がわかるのでそれをブラウザで設定して checkout すると flag がもらえる。
+
+## 学び
