@@ -47,7 +47,8 @@
 [More SQLi](#more-sqli)  
 [Filters](#filters)  
 [Find the flag](#find-the-flag)  
-[Ultimate spider man](#ultimate-spider-man)
+[Ultimate spider man](#ultimate-spider-man)  
+[eH lvl1](#eh-lvl1)
 
 # 解いた問題
 
@@ -686,3 +687,77 @@ Shakti CTF 2024
 商品 4 を買った時に取得できる cookie がわかるのでそれをブラウザで設定して checkout すると flag がもらえる。
 
 ## 学び
+
+特になし
+
+## eH lvl1
+
+## 解き方
+
+Shakti CTF 2024
+
+```
+from Crypto.Util.number import*
+from gmpy2 import *
+from secret import e,b,hint,msg,d
+p = getPrime(512)
+q = getPrime(512)
+n = p*q
+m = bytes_to_long(msg)
+h = bytes([i^b for i in hint])
+print(f"h = {hex(bytes_to_long(h))}")
+ct = pow(m,e,n)
+de = pow(ct,d,n)
+assert(m == de)
+print("ct = ",ct)
+print("p = ",p)
+print("q = ",q)
+```
+
+h,ct,p,q が既知の値。hint が各バイトごとに b で xor されてる。バイトごとの xor のため b は 0-255 のどれかのため全探索すれば良い。
+
+```
+from Crypto.Util.number import long_to_bytes
+
+# 与えられた16進数の文字列
+h_hex = 0x6f535e1b5e1b061b0c020f0b0b10134f535e1b4852555c575e1b59424f5e1b4f535a4f1b4c5a481b4354495e5f121b0112
+
+# 16進数をバイト列に変換
+h_bytes = long_to_bytes(h_hex)
+
+# 各バイトに3をXOR
+for i in range(2 ** 10):
+
+    try:
+        result = bytes([b ^ i for b in h_bytes])
+        print(result.decode())
+    except:
+        pass
+```
+
+全探索すると The e = 79400+(the single byte that was xored) :)という文字が得られる。これより e の値がわかり flag が復元できる。
+
+```
+temp_e = 79400
+for i in range(2 ** 8):
+  for j in range(20):
+    e = temp_e ^ (i * (2 ** (j * 4)))
+    phi_n = (p - 1) * (q - 1)
+    try:
+      d = pow(e, -1, phi_n)
+      de = pow(ct,d,n)
+      byte_length = (de.bit_length() + 7) // 8  # 整数を表現するのに必要なバイト数を計算
+      byte_order = 'big'  # バイトオーダーを指定（'big'または'little'）
+      bytes_value = de.to_bytes(byte_length, byte_order)
+      string_value = bytes_value.decode('ascii')
+      print(string_value)
+    except:
+      pass
+```
+
+復元すると Here is your reward 'vvrkxuqgi{r0i43m0r_f0_hu3_u3gtu3!!!}' You can ask 'Doraemon' to help you with this. Bye!!という文字が得られる。どうやらこれがヴィシュネル暗号らしく Doraemon という key を使うと flag が得られる。
+
+## 学び
+
+- ヴィシュネル暗号の存在を知った
+- https://www.dcode.fr/vigenere-cipher が便利
