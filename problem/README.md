@@ -48,7 +48,8 @@
 [Filters](#filters)  
 [Find the flag](#find-the-flag)  
 [Ultimate spider man](#ultimate-spider-man)  
-[eH lvl1](#eh-lvl1)
+[eH lvl1](#eh-lvl1)  
+[eH lvl2](#eh-lvl2)
 
 # 解いた問題
 
@@ -761,3 +762,29 @@ for i in range(2 ** 8):
 
 - ヴィシュネル暗号の存在を知った
 - https://www.dcode.fr/vigenere-cipher が便利
+
+## eH lvl2
+
+## 解き方
+
+Shakti CTF 2024
+
+```
+from Crypto.Util.number import*
+from gmpy2 import *
+from secret import flag,hint,p,q,n,e
+
+m = bytes_to_long(flag)
+h = [i^n for i in hint]
+print(f"h = {(h)}")
+ct = pow(m,e,n)
+print("ct = ",ct)
+print("p = ",p)
+print("q = ",q)
+```
+
+h, ct, p, q が既知で n も n=p \* q で導ける。そのため hint が復元できる。The e = 46307 :)ヒントから e がわかるため ct から flag が復元できる。
+
+## 学び
+
+特になし
