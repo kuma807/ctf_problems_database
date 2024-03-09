@@ -23,6 +23,10 @@ https://gchq.github.io/CyberChef/#recipe=From_Hex('Auto')XOR(%7B'option':'Hex','
 
 http://www.net.c.dendai.ac.jp/crypto/caesar2.html?#
 
+## 暗号解読
+
+https://www.dcode.fr/vigenere-cipher
+
 # 画像
 
 ## binwalk
