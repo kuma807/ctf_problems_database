@@ -51,7 +51,8 @@
 [eH lvl1](#eh-lvl1)  
 [eH lvl2](#eh-lvl2)  
 [Operation Ultra](#operation-ultra)  
-[Warmup_rev](#warmup_rev)
+[Warmup_rev](#warmup_rev)  
+[Ocean_Enigma](#ocean_enigma)
 
 # 解いた問題
 
@@ -814,3 +815,14 @@ strings コマンドでファイルの可読文字を見ると flag が入って
 ## 学び
 
 - こんなことしなくても ghidra を使って binary からコードを復元するのがよかったぽい
+
+## Ocean_Enigma
+
+## 解き方
+
+Shakti CTF 2024 osint  
+画像を検索すると船の名前がわかるの wiki を見ると flag がわかる。
+
+## 学び
+
+特になし
