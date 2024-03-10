@@ -21,5 +21,28 @@ for i in range(1, 5):
       else:
         result["solved_percent"] = int(result["users_solved_during_event"] / num_participant[result["event"]["name"]] * 1000) / 10
       
-      row = f"| [{result["name"]}](https://play.picoctf.org/practice/challenge/{result["id"]}) | {result["event"]["name"]} | {result["category"]["name"]} | {int(result["rating_percentage"])}% | {result["users_solved"]} | {result["gym_points"]} | {"✅" if result["solved_by_user"] else "❌"} |"
+      row = f"| [{result["name"]}](https://play.picoctf.org/practice/challenge/{result["id"]}) | {result["event"]["name"]} | {result["category"]["name"]} | {int(result["positive_rating_count"] / result["rating_count"])}% | {result["users_solved"]} | {result["gym_points"]} | {"✅" if result["solved_by_user"] else "❌"} |"
       print(row)
+
+with open("../data/solved.json", "r") as file:
+    data = json.load(file)
+for i in range(1, 5):
+    with open(f"pico_data{i}.json") as f:
+      di = json.load(f)
+      for result in di["results"]:
+        problem = result["name"]
+        site = "picoCTF"
+        contest = ""
+        category = ""
+        if result["event"] != None:
+          contest = result["event"]["name"]
+        if result["category"] != None:
+          category = result["category"]["name"]
+        data["problems"].append({
+            "problem": problem,
+            "site": site,
+            "contest": contest,
+            "category": category,
+        })
+with open("../data/solved.json", "w") as file:
+    json.dump(data, file, indent=4)
