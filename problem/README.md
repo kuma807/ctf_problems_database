@@ -58,6 +58,10 @@
 
 # crackme-py
 
+site: picoCTF  
+contest: picoCTF 2021  
+category: Reverse Engineering
+
 ## 解き方
 
 crackme.py を読んで内容を理解する。flag を出力する関数が呼び出されていないためそれを呼び出すようにコードを変える。
@@ -68,6 +72,10 @@ crackme.py を読んで内容を理解する。flag を出力する関数が呼�
 
 # Magikarp Ground Mission
 
+site: picoCTF  
+contest: picoCTF 2021  
+category: General Skills
+
 ## 解き方
 
 cd,ls,cat などの linux コマンドを使ってマシン内にある flag を探す。
@@ -77,6 +85,10 @@ cd,ls,cat などの linux コマンドを使ってマシン内にある flag を
 特になし
 
 # tunn3l v1s10n
+
+site: picoCTF  
+contest: picoCTF 2021  
+category: Forensics
 
 ## 解き方
 
@@ -97,6 +109,10 @@ cd,ls,cat などの linux コマンドを使ってマシン内にある flag を
 
 # Easy Peasy
 
+site: picoCTF  
+contest: picoCTF 2021  
+category: Cryptography
+
 ## 解き方
 
 1.コードを読むと暗号化の key の長さが 50000 しかなくて、すべて使い切るとまた最初から使い回す方式になっている。そのため 50000 文字を使い切って適当な文字列を再度送ることで flag を暗号化した key を特定できる、この key を使って暗号化された flag を解読すれば良い。
@@ -115,6 +131,10 @@ python3 -c "print('\x00'*(50000-32)+'\n'+'\x00'*32)" | nc mercury.picoctf.net 36
 
 # Cookies
 
+site: picoCTF  
+contest: picoCTF 2021  
+category: Web Exploitation
+
 ## 解き方
 
 問題の名前からして cookie が怪しいので見に行くと name っていうものが保存されている。この name の value がデフォルトだと-1 になってるのでそれを適当に 1 に変更するとサイトに表示される内容が変わる。value を 1 から 18 まで試すと 18 で flag が出てくる。
@@ -125,6 +145,10 @@ python3 -c "print('\x00'*(50000-32)+'\n'+'\x00'*32)" | nc mercury.picoctf.net 36
 
 # Insp3ct0r
 
+site: picoCTF  
+contest: picoCTF 2019  
+category: Web Exploitation
+
 ## 解き方
 
 サイトを開いて管理者ツールを開くだけ html,css,js に flag が隠されている
@@ -134,6 +158,10 @@ python3 -c "print('\x00'*(50000-32)+'\n'+'\x00'*32)" | nc mercury.picoctf.net 36
 特になし
 
 # Scavenger Hunt
+
+site: picoCTF  
+contest: picoCTF 2021  
+category: Web Exploitation
 
 ## 解き方
 
@@ -153,6 +181,10 @@ mac なので/.DS_Store にアクセスすると最後の flag が見つかる
 
 # Glory of the Garden
 
+site: picoCTF  
+contest: picoCTF 2019  
+category: Forensics
+
 ## 解き方
 
 exiftool で追加情報を見る。特に何もなし
@@ -165,6 +197,10 @@ strings でファイル内に文字ないか確認 -> Here is a flag "picoCTF{mo
 
 # Lets Warm Up
 
+site: picoCTF  
+contest: picoCTF 2019  
+category: General Skills
+
 ## 解き方
 
 x70 を ascii に変換するだけ
@@ -174,6 +210,10 @@ https://www.rapidtables.com/convert/number/hex-to-ascii.htmlで変換
 答えは picoCTF{}の中に入れよう
 
 # vault-door-training
+
+site: picoCTF  
+contest: picoCTF 2019  
+category: Reverse Engineering
 
 ## 解き方
 
@@ -185,6 +225,10 @@ https://www.rapidtables.com/convert/number/hex-to-ascii.htmlで変換
 
 # Warmed Up
 
+site: picoCTF  
+contest: picoCTF 2019  
+category: General Skills
+
 ## 解き方
 
 16 進数を 10 進数に変換する
@@ -194,6 +238,10 @@ https://www.rapidtables.com/convert/number/hex-to-ascii.htmlで変換
 特になし
 
 # 2Warm
+
+site: picoCTF  
+contest: picoCTF 2019  
+category: General Skills
 
 ## 解き方
 
@@ -205,6 +253,10 @@ https://www.rapidtables.com/convert/number/hex-to-ascii.htmlで変換
 
 # PW Crack 1
 
+site: picoCTF  
+contest: Beginner picoMini 2022  
+category: General Skills
+
 ## 解き方
 
 python コードを読んで入力するパスワードを探す
@@ -214,6 +266,10 @@ python コードを読んで入力するパスワードを探す
 特になし
 
 # Wireshark doo dooo do doo...
+
+site: picoCTF  
+contest: picoCTF 2021  
+category: Forensics
 
 ## 解き方
 
@@ -227,6 +283,10 @@ wireshark でファイルを開いて通信を解読していく。tcp 通信は
 
 # Who are you?
 
+site: picoCTF  
+contest: picoCTF 2021  
+category: Web Exploitation
+
 ## 解き方
 
 curl を使って使ってるウェブブラウザ、日付、追跡されない設定、どのサイト経由で来たか、どの国からアクセスしてるか、どの言語を使っているかなどを指定できる。
@@ -236,6 +296,10 @@ curl を使って使ってるウェブブラウザ、日付、追跡されない
 - curl を使うと http ヘッダを操作できる
 
 # where are the robots
+
+site: picoCTF  
+contest: picoCTF 2019  
+category: Web Exploitation
 
 ## 解き方
 
@@ -249,6 +313,10 @@ robots.txt にアクセスして disallow になってるページに行くと f
 
 # dont-use-client-side
 
+site: picoCTF  
+contest: picoCTF 2019  
+category: Web Exploitation
+
 ## 解き方
 
 js を読むだけ
@@ -258,6 +326,10 @@ js を読むだけ
 特になし
 
 # logon
+
+site: picoCTF  
+contest: picoCTF 2019  
+category: Web Exploitation
 
 ## 解き方
 
@@ -270,6 +342,10 @@ username は変える必要がなかったらしく、admin=True だけで flag 
 
 # Inspect HTML
 
+site: picoCTF  
+contest: picoCTF 2022  
+category: Web Exploitation
+
 ## 解き方
 
 html を見るだけ
@@ -279,6 +355,10 @@ html を見るだけ
 特になし
 
 # login
+
+site: picoCTF  
+contest: picoMini by redpwn  
+category: Web Exploitation
 
 ## 解き方
 
@@ -290,6 +370,10 @@ js を見ると base64 エンコードされたパスワードが見つかから
 
 # Includes
 
+site: picoCTF  
+contest: picoCTF 2022  
+category: Web Exploitation
+
 ## 解き方
 
 js,css を見るだけ
@@ -299,6 +383,10 @@ js,css を見るだけ
 特になし
 
 # Local Authority
+
+site: picoCTF  
+contest: picoCTF 2022  
+category: Web Exploitation
 
 ## 解き方
 
@@ -310,6 +398,10 @@ js を読んでログインパスワードをゲットする
 
 # Some Assembly Required 1
 
+site: picoCTF  
+contest: picoCTF 2021  
+category: Web Exploitation
+
 ## 解き方
 
 js 解読してたけど wasm ファイルに flag 書いてあった。
@@ -319,6 +411,10 @@ js 解読してたけど wasm ファイルに flag 書いてあった。
 - すぐ js の解読開始するのではなく全体を一回見るの大切かも
 
 # picobrowser
+
+site: picoCTF  
+contest: picoCTF 2019  
+category: Web Exploitation
 
 ## 解き方
 
@@ -330,6 +426,10 @@ curl でアクセスしてるブラウザを picobrowser にすると flag が�
 
 # Power Cookie
 
+site: picoCTF  
+contest: picoCTF 2022  
+category: Web Exploitation
+
 ## 解き方
 
 cookie を変更するだけ
@@ -340,6 +440,10 @@ cookie を変更するだけ
 
 # Forbidden Paths
 
+site: picoCTF  
+contest: picoCTF 2022  
+category: Web Exploitation
+
 ## 解き方
 
 現在のパスと行きたい場所のパスがわかるので相対パスを入力する
@@ -349,6 +453,10 @@ cookie を変更するだけ
 - 特になし
 
 # It is my Birthday
+
+site: picoCTF  
+contest: picoCTF 2021  
+category: Web Exploitation
 
 ## 解き方
 
@@ -362,6 +470,10 @@ https://www.softel.co.jp/blogs/tech/archives/7212
 
 # Client-side-again
 
+site: picoCTF  
+contest: picoCTF 2019  
+category: Web Exploitation
+
 ## 解き方
 
 html に書いてある配列を元に flag を予想した。正規手順としては js を実際に動かして if 文で比較されてる文字を見るのがいいかも
@@ -371,6 +483,10 @@ html に書いてある配列を元に flag を予想した。正規手順とし
 - html,js を解析するときは実際に動かそう
 
 # Irish-Name-Repo 1
+
+site: picoCTF  
+contest: picoCTF 2019  
+category: Web Exploitation
 
 ## 解き方
 
@@ -384,6 +500,10 @@ password に ' OR '1'='1 を入れるか、username に ' or 1 == 1 -- を入れ
 
 # Secrets
 
+site: picoCTF  
+contest: picoCTF 2022  
+category: Web Exploitation
+
 ## 解き方
 
 開発者モードで source を見ると css が secret っていうファイルにあるため/secret/にアクセスするとページが現れる。移行繰り返しで flag が見つかる。
@@ -394,6 +514,10 @@ password に ' OR '1'='1 を入れるか、username に ' or 1 == 1 -- を入れ
 
 # Roboto Sans
 
+site: picoCTF  
+contest: picoCTF 2022  
+category: Web Exploitation
+
 ## 解き方
 
 robots.txt に行くと base64 の文字があるのでデコードするとアクセスできそうなデレクトリが見つかる。アクセスすると flag
@@ -403,6 +527,10 @@ robots.txt に行くと base64 の文字があるのでデコードするとア�
 - base64 とは、64 進数を意味する言葉で、すべてのデータをアルファベット(a~z, A~z)と数字(0~9)、一部の記号(+,/)の 64 文字で表すエンコード方式です。またパディングのために=が末尾に使用されることがある。
 
 # caas
+
+site: picoCTF  
+contest: picoMini by redpwn  
+category: Web Exploitation
 
 ## 解き方
 
@@ -415,6 +543,10 @@ robots.txt に行くと base64 の文字があるのでデコードするとア�
 
 # SQLiLite
 
+site: picoCTF  
+contest: picoCTF 2022  
+category: Web Exploitation
+
 ## 解き方
 
 sql インジェクションをするとログインできる。' OR '1'='1
@@ -424,6 +556,10 @@ sql インジェクションをするとログインできる。' OR '1'='1
 特になし
 
 # findme
+
+site: picoCTF  
+contest: picoCTF 2023  
+category: Web Exploitation
 
 ## 解き方
 
@@ -437,6 +573,10 @@ burp を使うと簡単に redirect の経路とかがわかる。
 
 # MatchTheRegex
 
+site: picoCTF  
+contest: picoCTF 2023  
+category: Web Exploitation
+
 ## 解き方
 
 js に正規表現があるのでそれにマッチする文字を送信すると flag がもらえる。
@@ -447,6 +587,10 @@ js に正規表現があるのでそれにマッチする文字を送信する�
 
 # Irish-Name-Repo 2
 
+site: picoCTF  
+contest: picoCTF 2019  
+category: Web Exploitation
+
 ## 解き方
 
 ' OR '1' = '1 だと sql インジェクションがバレるので admin' --をやるとうまく行く。
@@ -456,6 +600,10 @@ js に正規表現があるのでそれにマッチする文字を送信する�
 - 色々な sql インジェクションを学んで対策をすり抜けるのが大事
 
 # Web Gauntlet
+
+site: picoCTF  
+contest: picoCTF 2020 Mini-Competition  
+category: Web Exploitation
 
 ## 解き方
 
@@ -468,6 +616,10 @@ js に正規表現があるのでそれにマッチする文字を送信する�
 
 # Irish-Name-Repo 3
 
+site: picoCTF  
+contest: picoCTF 2019  
+category: Web Exploitation
+
 ## 解き方
 
 burp で送ったリクエストを見ると debug っていう項目があるので debug=1 にして送り直す。このとき変更したいリクエストを右クリックして send to repeater を選択、左上から repeater を選択するとリクエストを編集・送信できるようになる。編集したリクエストを送ると rot13 で送った文字が変更されてるので、rot13 された' or '1'='1 を送ると flag がもらえる
@@ -479,6 +631,10 @@ burp で送ったリクエストを見ると debug っていう項目がある�
 - intersept = true にすると送る前にリクエストを編集できる
 
 # SOAP
+
+site: picoCTF  
+contest: picoCTF 2023  
+category: Web Exploitation
 
 ## 解き方
 
@@ -503,6 +659,10 @@ network の通信を見ると画像があるのでそれを開くと flag
 - 特になし
 
 # Some Assembly Required 2
+
+site: picoCTF  
+contest: picoCTF 2021  
+category: Web Exploitation
 
 ## 解き方
 
@@ -582,6 +742,10 @@ imaginaryCTF
 特になし
 
 # More SQLi
+
+site: picoCTF  
+contest: picoCTF 2023  
+category: Web Exploitation
 
 ## 解き方
 
