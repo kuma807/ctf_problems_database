@@ -183,7 +183,7 @@ https://www.rapidtables.com/convert/number/hex-to-ascii.htmlで変換
 
 特になし
 
-## Warmed Up
+# Warmed Up
 
 ## 解き方
 
@@ -193,7 +193,7 @@ https://www.rapidtables.com/convert/number/hex-to-ascii.htmlで変換
 
 特になし
 
-## 2Warm
+# 2Warm
 
 ## 解き方
 
@@ -203,7 +203,7 @@ https://www.rapidtables.com/convert/number/hex-to-ascii.htmlで変換
 
 特になし
 
-## PW Crack 1
+# PW Crack 1
 
 ## 解き方
 
@@ -213,7 +213,7 @@ python コードを読んで入力するパスワードを探す
 
 特になし
 
-## Wireshark doo dooo do doo...
+# Wireshark doo dooo do doo...
 
 ## 解き方
 
@@ -225,7 +225,7 @@ wireshark でファイルを開いて通信を解読していく。tcp 通信は
 - wireshark で info 絞り込みをすると http 通信を絞り込みやすい
 - シーザー暗号（cvpbPGS{c33xno00_1_f33_h_qrnqorrs}みたいにローマ字をずらすやつ）を解読するのに http://www.net.c.dendai.ac.jp/crypto/caesar2.html?# が便利
 
-## Who are you?
+# Who are you?
 
 ## 解き方
 
@@ -235,7 +235,7 @@ curl を使って使ってるウェブブラウザ、日付、追跡されない
 
 - curl を使うと http ヘッダを操作できる
 
-## where are the robots
+# where are the robots
 
 ## 解き方
 
@@ -247,7 +247,7 @@ robots.txt にアクセスして disallow になってるページに行くと f
 - robots.txt は User-Agent、Disallow、Sitemap を指定する。User-Agent は、どのクローラーの動きを制御するかを指定、Disallow は、クローラーのアクセスを制御するファイルを指定、Sitemap は、sitemap.xml の場所をクローラーに伝える。
 - Sitemap は Web サイト内の各ページ情報（URL や優先度、最終更新日、更新頻度などの情報）を検索エンジン向けに記載した XML 形式のファイル
 
-## dont-use-client-side
+# dont-use-client-side
 
 ## 解き方
 
@@ -257,7 +257,7 @@ js を読むだけ
 
 特になし
 
-## logon
+# logon
 
 ## 解き方
 
@@ -268,7 +268,7 @@ username は変える必要がなかったらしく、admin=True だけで flag 
 
 - cookie の情報だけで処理を変えるのは良くない
 
-## Inspect HTML
+# Inspect HTML
 
 ## 解き方
 
@@ -278,7 +278,7 @@ html を見るだけ
 
 特になし
 
-## login
+# login
 
 ## 解き方
 
@@ -288,7 +288,7 @@ js を見ると base64 エンコードされたパスワードが見つかから
 
 - base64 とはすべてのデータをアルファベット(a~z, A~z)と数字(0~9)、一部の記号(+,/)の 64 文字で表すエンコード方式
 
-## Includes
+# Includes
 
 ## 解き方
 
@@ -298,7 +298,7 @@ js,css を見るだけ
 
 特になし
 
-## Local Authority
+# Local Authority
 
 ## 解き方
 
@@ -308,7 +308,7 @@ js を読んでログインパスワードをゲットする
 
 特になし
 
-## Some Assembly Required 1
+# Some Assembly Required 1
 
 ## 解き方
 
@@ -318,7 +318,7 @@ js 解読してたけど wasm ファイルに flag 書いてあった。
 
 - すぐ js の解読開始するのではなく全体を一回見るの大切かも
 
-## picobrowser
+# picobrowser
 
 ## 解き方
 
@@ -328,7 +328,7 @@ curl でアクセスしてるブラウザを picobrowser にすると flag が�
 
 - curl でブラウザ変更するの典型ぽい
 
-## Power Cookie
+# Power Cookie
 
 ## 解き方
 
@@ -338,7 +338,7 @@ cookie を変更するだけ
 
 特になし
 
-## Forbidden Paths
+# Forbidden Paths
 
 ## 解き方
 
@@ -348,7 +348,7 @@ cookie を変更するだけ
 
 - 特になし
 
-## It is my Birthday
+# It is my Birthday
 
 ## 解き方
 
@@ -360,7 +360,7 @@ https://www.softel.co.jp/blogs/tech/archives/7212
 - md5 とは、任意の長さの原文を元に 128 ビットの値を生成するハッシュ関数（要約関数）の一つ。生成された値はハッシュ値（MD5 ハッシュ）と呼ばれる。
 - md5 はハッシュの衝突する値が見つけられるようになって最近は SHA-256 が代わりに使われる
 
-## Client-side-again
+# Client-side-again
 
 ## 解き方
 
@@ -370,7 +370,7 @@ html に書いてある配列を元に flag を予想した。正規手順とし
 
 - html,js を解析するときは実際に動かそう
 
-## Irish-Name-Repo 1
+# Irish-Name-Repo 1
 
 ## 解き方
 
@@ -382,7 +382,7 @@ password に ' OR '1'='1 を入れるか、username に ' or 1 == 1 -- を入れ
 - sql に -- を入れるとその行のそれ以降の文字がコメントアウトされる
 - sql の and は or より早く確認される
 
-## Secrets
+# Secrets
 
 ## 解き方
 
@@ -392,7 +392,7 @@ password に ' OR '1'='1 を入れるか、username に ' or 1 == 1 -- を入れ
 
 - http://saturn.picoctf.net:62050/secret と http://saturn.picoctf.net:62050/secret/ では大きな違いがある。この形式の URL は、secret という名前のディレクトリにアクセスしようとしていることを示しています。この場合、ウェブサーバーは通常、そのディレクトリ内のデフォルトのインデックスファイル（例: index.html や index.php など）を返します。
 
-## Roboto Sans
+# Roboto Sans
 
 ## 解き方
 
@@ -402,7 +402,7 @@ robots.txt に行くと base64 の文字があるのでデコードするとア�
 
 - base64 とは、64 進数を意味する言葉で、すべてのデータをアルファベット(a~z, A~z)と数字(0~9)、一部の記号(+,/)の 64 文字で表すエンコード方式です。またパディングのために=が末尾に使用されることがある。
 
-## caas
+# caas
 
 ## 解き方
 
@@ -413,7 +413,7 @@ robots.txt に行くと base64 の文字があるのでデコードするとア�
 - コマンドインジェクションで&とか;が使える
 - ユーザーの入力を元にコマンド実行するの危険かも
 
-## SQLiLite
+# SQLiLite
 
 ## 解き方
 
@@ -423,7 +423,7 @@ sql インジェクションをするとログインできる。' OR '1'='1
 
 特になし
 
-## findme
+# findme
 
 ## 解き方
 
@@ -435,7 +435,7 @@ burp を使うと簡単に redirect の経路とかがわかる。
 - burp が神と話題
 - 通信で何が行われてるか確認した方がいい
 
-## MatchTheRegex
+# MatchTheRegex
 
 ## 解き方
 
@@ -445,7 +445,7 @@ js に正規表現があるのでそれにマッチする文字を送信する�
 
 - ^は正規表現の始まりを表し、.は任意の文字を表す
 
-## Irish-Name-Repo 2
+# Irish-Name-Repo 2
 
 ## 解き方
 
@@ -455,7 +455,7 @@ js に正規表現があるのでそれにマッチする文字を送信する�
 
 - 色々な sql インジェクションを学んで対策をすり抜けるのが大事
 
-## Web Gauntlet
+# Web Gauntlet
 
 ## 解き方
 
@@ -466,7 +466,7 @@ js に正規表現があるのでそれにマッチする文字を送信する�
 - ;がそこで sql 文を修了できて良い
 - union を使って複数クエリの結合や||を使った文字列の結合が便利
 
-## Irish-Name-Repo 3
+# Irish-Name-Repo 3
 
 ## 解き方
 
@@ -478,7 +478,7 @@ burp で送ったリクエストを見ると debug っていう項目がある�
 - send to repeater もリクエストを編集できて便利
 - intersept = true にすると送る前にリクエストを編集できる
 
-## SOAP
+# SOAP
 
 ## 解き方
 
@@ -491,7 +491,7 @@ burp で送ったリクエストを見ると debug っていう項目がある�
 - xml インジェクションについて学んだ
 - xml は外部のファイルの参照とかができる、json みたいなデータ形式
 
-## A little something to get you started
+# A little something to get you started
 
 ## 解き方
 
@@ -502,7 +502,7 @@ network の通信を見ると画像があるのでそれを開くと flag
 
 - 特になし
 
-## Some Assembly Required 2
+# Some Assembly Required 2
 
 ## 解き方
 
@@ -548,7 +548,7 @@ wasm-decompile aD8SvhyVkb.wasm -o aD8SvhyVkb.dcmp
 - wasm はより読みやすい wat、c 言語、疑似コード に変換できる
 - wasm は高速な実行を目的としたバイナリ命令形式のプログラミング言語、wat は wasm のテキスト形式版
 
-## Sanity Check Round 44
+# Sanity Check Round 44
 
 ## 解き方
 
@@ -559,7 +559,7 @@ imaginaryCTF
 
 特になし
 
-## kaiser
+# kaiser
 
 ## 解き方
 
@@ -570,7 +570,7 @@ imaginaryCTF
 
 特になし
 
-## Sleepy
+# Sleepy
 
 ## 解き方
 
@@ -581,7 +581,7 @@ imaginaryCTF
 
 特になし
 
-## More SQLi
+# More SQLi
 
 ## 解き方
 
@@ -612,7 +612,7 @@ SQL query: SELECT id FROM users WHERE password = 'a' AND username = 'a'
 - 列の数が合わなかったら NULL で埋めれば良い
 - https://blog.hamayanhamayan.com/entry/2021/12/05/115923 このサイトに sql インジェクションの例がいっぱい載ってて良い
 
-## Filters
+# Filters
 
 ## 解き方
 
@@ -671,7 +671,7 @@ Please provide a command
 - ('a' ^ 'b')('c' ^ 'd')みたいな形で('command')('引数')を作ればコマンド名も xor で作れる
 - このサイトが php インジェクションまとまっててよかった https://blog.hamayanhamayan.com/entry/2021/12/18/132236
 
-## Find the flag
+# Find the flag
 
 ## 解き方
 
@@ -682,7 +682,7 @@ Shakti CTF 2024 web
 
 特になし
 
-## Ultimate spider man
+# Ultimate spider man
 
 ## 解き方
 
@@ -694,7 +694,7 @@ Shakti CTF 2024 web
 
 特になし
 
-## eH lvl1
+# eH lvl1
 
 ## 解き方
 
@@ -766,7 +766,7 @@ for i in range(2 ** 8):
 - ヴィシュネル暗号の存在を知った
 - https://www.dcode.fr/vigenere-cipher が便利
 
-## eH lvl2
+# eH lvl2
 
 ## 解き方
 
@@ -792,7 +792,7 @@ h, ct, p, q が既知で n も n=p \* q で導ける。そのため hint が復�
 
 特になし
 
-## Operation Ultra
+# Operation Ultra
 
 ## 解き方
 
@@ -804,7 +804,7 @@ Shakti CTF 2024 rev
 
 特になし
 
-## Warmup_rev
+# Warmup_rev
 
 ## 解き方
 
@@ -816,11 +816,14 @@ strings コマンドでファイルの可読文字を見ると flag が入って
 
 - こんなことしなくても ghidra を使って binary からコードを復元するのがよかったぽい
 
-## Ocean_Enigma
+# Ocean_Enigma
+
+site: Shakti CTF
+contest: Shakti CTF 2024
+category: osint
 
 ## 解き方
 
-Shakti CTF 2024 osint  
 画像を検索すると船の名前がわかるの wiki を見ると flag がわかる。
 
 ## 学び
