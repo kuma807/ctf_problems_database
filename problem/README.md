@@ -50,7 +50,8 @@
 [Ultimate spider man](#ultimate-spider-man)  
 [eH lvl1](#eh-lvl1)  
 [eH lvl2](#eh-lvl2)  
-[Operation Ultra](#operation-ultra)
+[Operation Ultra](#operation-ultra)  
+[Warmup_rev](#warmup_rev)
 
 # 解いた問題
 
@@ -801,3 +802,15 @@ Shakti CTF 2024 rev
 ## 学び
 
 特になし
+
+## Warmup_rev
+
+## 解き方
+
+Shakti CTF 2024 rev
+
+strings コマンドでファイルの可読文字を見ると flag が入ってる。
+
+## 学び
+
+- こんなことしなくても ghidra を使って binary からコードを復元するのがよかったぽい
