@@ -38,11 +38,12 @@ for i in range(1, 5):
           contest = result["event"]["name"]
         if result["category"] != None:
           category = result["category"]["name"]
-        data["problems"].append({
-            "problem": problem,
-            "site": site,
-            "contest": contest,
-            "category": category,
-        })
+        if result["solved_by_user"]:
+          data["problems"].append({
+              "problem": problem,
+              "site": site,
+              "contest": contest,
+              "category": category,
+          })
 with open("../data/solved.json", "w") as file:
-    json.dump(data, file, indent=4)
+    json.dump(data, file, indent=2)

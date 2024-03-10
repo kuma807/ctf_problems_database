@@ -710,9 +710,12 @@ wasm-decompile aD8SvhyVkb.wasm -o aD8SvhyVkb.dcmp
 
 # Sanity Check Round 44
 
+site: imaginaryCTF  
+contest: imaginaryCTF Round 44  
+category: General Skills
+
 ## 解き方
 
-imaginaryCTF  
 問題文に flag が書いてある
 
 ## 学び
@@ -721,9 +724,12 @@ imaginaryCTF
 
 # kaiser
 
+site: imaginaryCTF  
+contest: imaginaryCTF Round 44  
+category: Cryptography
+
 ## 解き方
 
-imaginaryCTF  
 シーザー暗号の key=7。なぜ 7 なのかは不明だし復元した flag も意味のない文字列で不服
 
 ## 学び
@@ -732,9 +738,12 @@ imaginaryCTF
 
 # Sleepy
 
+site: imaginaryCTF  
+contest: imaginaryCTF Round 44  
+category: Reverse Engineering
+
 ## 解き方
 
-imaginaryCTF  
 コードを読むと sleep が無駄に入ってるので削除すると高速に flag がもとまる。
 
 ## 学び
@@ -778,9 +787,11 @@ SQL query: SELECT id FROM users WHERE password = 'a' AND username = 'a'
 
 # Filters
 
-## 解き方
+site: Shakti CTF  
+contest: Shakti CTF 2024  
+category: Web Exploitation
 
-Shakti CTF 2024 web
+## 解き方
 
 画面にアクセスすると次のことが画面に表示される。
 
@@ -837,9 +848,12 @@ Please provide a command
 
 # Find the flag
 
+site: Shakti CTF  
+contest: Shakti CTF 2024  
+category: Web Exploitation
+
 ## 解き方
 
-Shakti CTF 2024 web
 付属のファイルを読むとリクエストパラメータの test が os.popen(command)で実行されてる。command = f"find {test}"と定義されているため test に; cat flag.txt を入れると flag が得られる。
 
 ## 学び
@@ -848,9 +862,12 @@ Shakti CTF 2024 web
 
 # Ultimate spider man
 
+site: Shakti CTF  
+contest: Shakti CTF 2024  
+category: Web Exploitation
+
 ## 解き方
 
-Shakti CTF 2024 web
 画面に表示されてる 4 つ目の商品を買えば良さそうだけどお金が足りない。他の商品を買うときの処理を burp で見ると post request ではお金足りるかの処理をローカルで行って、お金足りたら post id=3 みたいな感じで送信してる。なので burp で id=4 でリクエストを送ると商品 4 を買ったときのリスポンスが帰ってくる。
 商品 4 を買った時に取得できる cookie がわかるのでそれをブラウザで設定して checkout すると flag がもらえる。
 
@@ -860,9 +877,11 @@ Shakti CTF 2024 web
 
 # eH lvl1
 
-## 解き方
+site: Shakti CTF  
+contest: Shakti CTF 2024  
+category: Cryptography
 
-Shakti CTF 2024 crypto
+## 解き方
 
 ```
 from Crypto.Util.number import*
@@ -932,9 +951,11 @@ for i in range(2 ** 8):
 
 # eH lvl2
 
-## 解き方
+site: Shakti CTF  
+contest: Shakti CTF 2024  
+category: Cryptography
 
-Shakti CTF 2024 crypto
+## 解き方
 
 ```
 from Crypto.Util.number import*
@@ -958,9 +979,11 @@ h, ct, p, q が既知で n も n=p \* q で導ける。そのため hint が復�
 
 # Operation Ultra
 
-## 解き方
+site: Shakti CTF  
+contest: Shakti CTF 2024  
+category: Reverse Engineering
 
-Shakti CTF 2024 rev
+## 解き方
 
 与えられたコードでは flag に対して xor して並び替えるという暗号化を行っている。並び替えを戻して xor を再度行うと flag がもらえる。
 
@@ -970,9 +993,11 @@ Shakti CTF 2024 rev
 
 # Warmup_rev
 
-## 解き方
+site: Shakti CTF  
+contest: Shakti CTF 2024  
+category: Reverse Engineering
 
-Shakti CTF 2024 rev
+## 解き方
 
 strings コマンドでファイルの可読文字を見ると flag が入ってる。
 

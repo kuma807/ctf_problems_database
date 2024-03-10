@@ -1,1984 +1,484 @@
 {
-    "problems": [
-        {
-            "problem": "Obedient Cat",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Mod 26",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Python Wrangling",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Wave a flag",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "General Skills"
-        },
-        {
-            "problem": "information",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Nice netcat...",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Transformation",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Stonks",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "GET aHEAD",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Mind your Ps and Qs",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Static ain't always noise",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Tab, Tab, Attack",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "General Skills"
-        },
-        {
-            "problem": "keygenme-py",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Matryoshka doll",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Forensics"
-        },
-        {
-            "problem": "crackme-py",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Magikarp Ground Mission",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "General Skills"
-        },
-        {
-            "problem": "tunn3l v1s10n",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Easy Peasy",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "ARMssembly 0",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Cookies",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "vault-door-training",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Insp3ct0r",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Lets Warm Up",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Glory of the Garden",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Warmed Up",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "General Skills"
-        },
-        {
-            "problem": "The Numbers",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "2Warm",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Wireshark doo dooo do doo...",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Forensics"
-        },
-        {
-            "problem": "speeds and feeds",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Shop",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Scavenger Hunt",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "MacroHard WeakEdge",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Forensics"
-        },
-        {
-            "problem": "New Caesar",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "ARMssembly 1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Cache Me Outside",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Some Assembly Required 1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Mini RSA",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Dachshund Attacks",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Trivial Flag Transfer Protocol",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Forensics"
-        },
-        {
-            "problem": "More Cookies",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "ARMssembly 2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "No Padding, No Problem",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Here's a LIBC",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "where are the robots",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "vault-door-1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "what's a net cat?",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "General Skills"
-        },
-        {
-            "problem": "strings it",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Easy1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "logon",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "13",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "caesar",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "dont-use-client-side",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Bases",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "General Skills"
-        },
-        {
-            "problem": "First Grep",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Pixelated",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "It is my Birthday",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Wireshark twoo twooo two twoo...",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Who are you?",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Hurry up! Wait!",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Unsubscriptions Are Free",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "login",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "advanced-potion-making",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Forensics"
-        },
-        {
-            "problem": "spelling-quiz",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Codebook",
-            "site": "picoCTF",
-            "contest": "Beginner picoMini 2022",
-            "category": "General Skills"
-        },
-        {
-            "problem": "convertme.py",
-            "site": "picoCTF",
-            "contest": "Beginner picoMini 2022",
-            "category": "General Skills"
-        },
-        {
-            "problem": "fixme1.py",
-            "site": "picoCTF",
-            "contest": "Beginner picoMini 2022",
-            "category": "General Skills"
-        },
-        {
-            "problem": "fixme2.py",
-            "site": "picoCTF",
-            "contest": "Beginner picoMini 2022",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Glitch Cat",
-            "site": "picoCTF",
-            "contest": "Beginner picoMini 2022",
-            "category": "General Skills"
-        },
-        {
-            "problem": "HashingJobApp",
-            "site": "picoCTF",
-            "contest": "Beginner picoMini 2022",
-            "category": "General Skills"
-        },
-        {
-            "problem": "PW Crack 1",
-            "site": "picoCTF",
-            "contest": "Beginner picoMini 2022",
-            "category": "General Skills"
-        },
-        {
-            "problem": "PW Crack 2",
-            "site": "picoCTF",
-            "contest": "Beginner picoMini 2022",
-            "category": "General Skills"
-        },
-        {
-            "problem": "PW Crack 3",
-            "site": "picoCTF",
-            "contest": "Beginner picoMini 2022",
-            "category": "General Skills"
-        },
-        {
-            "problem": "PW Crack 4",
-            "site": "picoCTF",
-            "contest": "Beginner picoMini 2022",
-            "category": "General Skills"
-        },
-        {
-            "problem": "PW Crack 5",
-            "site": "picoCTF",
-            "contest": "Beginner picoMini 2022",
-            "category": "General Skills"
-        },
-        {
-            "problem": "runme.py",
-            "site": "picoCTF",
-            "contest": "Beginner picoMini 2022",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Serpentine",
-            "site": "picoCTF",
-            "contest": "Beginner picoMini 2022",
-            "category": "General Skills"
-        },
-        {
-            "problem": "basic-file-exploit",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "basic-mod1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "basic-mod2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "buffer overflow 0",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "credstuff",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "CVE-XXXX-XXXX",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Enhance!",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Forensics"
-        },
-        {
-            "problem": "file-run1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "file-run2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "File types",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Forensics"
-        },
-        {
-            "problem": "GDB Test Drive",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Includes",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Inspect HTML",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Local Authority",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Lookey here",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Forensics"
-        },
-        {
-            "problem": "morse-code",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Packets Primer",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Forensics"
-        },
-        {
-            "problem": "patchme.py",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "rail-fence",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Redaction gone wrong",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Safe Opener",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Search source",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Sleuthkit Intro",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Forensics"
-        },
-        {
-            "problem": "substitution0",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "substitution1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "substitution2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "transposition-trial",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "unpackme.py",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Vigenere",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "First Find",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Big Zip",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "General Skills"
-        },
-        {
-            "problem": "babygame01",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "chrono",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "General Skills"
-        },
-        {
-            "problem": "findme",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "hideme",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Forensics"
-        },
-        {
-            "problem": "HideToSee",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "MatchTheRegex",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "money-ware",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "General Skills"
-        },
-        {
-            "problem": "PcapPoisoning",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Permissions",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "General Skills"
-        },
-        {
-            "problem": "ReadMyCert",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Ready Gladiator 0",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "repetitions",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Reverse",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "rotation",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Safe Opener 2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "SOAP",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "timer",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "two-sum",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "useless",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Virtual Machine 0",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "who is it",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Forensics"
-        },
-        {
-            "problem": "ASCII FTW",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "ASCII Numbers",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Bit-O-Asm-1",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Bit-O-Asm-2",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Bit-O-Asm-3",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Bit-O-Asm-4",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "GDB baby step 1",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "GDB baby step 2",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "GDB baby step 3",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "GDB baby step 4",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Local Target",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Picker I",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Picker II",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Picker III",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Picker IV",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Disk, disk, sleuth!",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Play Nice",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Some Assembly Required 2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "gogo",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Milkslap",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Double DES",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "ARMssembly 3",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Compress and Attack",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Disk, disk, sleuth! II",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Super Serial",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Scrambled: RSA",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "So Meta",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "shark on wire 1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "extensions",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "What Lies Within",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Let's get dynamic",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Most Cookies",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "caas",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "XtraORdinary",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "triple-secure",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "clutter-overflow",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "not crypto",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Easy as GDB",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Some Assembly Required 3",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "filtered-shellcode",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Web Gauntlet 2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "ARMssembly 4",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Powershelly",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "la cifra de",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "picobrowser",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "asm1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Tapping",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Flags",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Based",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Mr-Worldwide",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "plumbing",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "General Skills"
-        },
-        {
-            "problem": "vault-door-3",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "rsa-pop-quiz",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Client-side-again",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Pitter, Patter, Platters",
-            "site": "picoCTF",
-            "contest": "picoCTF 2020 Mini-Competition",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Web Gauntlet",
-            "site": "picoCTF",
-            "contest": "picoCTF 2020 Mini-Competition",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Kit Engine",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Some Assembly Required 4",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "scrambled-bytes",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Forensics"
-        },
-        {
-            "problem": "breadth",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "WPA-ing Out",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Forensics"
-        },
-        {
-            "problem": "bloat.py",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "buffer overflow 1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Forbidden Paths",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Fresh Java",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Power Cookie",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Roboto Sans",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "RPS",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Secrets",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Sleuthkit Apprentice",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Forensics"
-        },
-        {
-            "problem": "SQL Direct",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "x-sixty-what",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "babygame02",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "FindAndOpen",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Forensics"
-        },
-        {
-            "problem": "hijacking",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "More SQLi",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "MSB",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Forensics"
-        },
-        {
-            "problem": "No way out",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "PowerAnalysis: Warmup",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Ready Gladiator 1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "tic-tac",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "VNE",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "asm2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "m00nwalk",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "WhitePages",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "c0rrupt",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "vault-door-4",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "like1000",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Guessing Game 1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2020 Mini-Competition",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Surfing the Waves",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Stonk Market",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "X marks the spot",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "notepad",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "college-rowing-team",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "fermat-strings",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "droids0",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "mus1c",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "General Skills"
-        },
-        {
-            "problem": "m00nwalk2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "waves over lambda",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "messy-malloc",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "flag_shop",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Investigative Reversing 0",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "asm3",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "miniRSA",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "vault-door-5",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "reverse_cipher",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Irish-Name-Repo 1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "shark on wire 2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Guessing Game 2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2020 Mini-Competition",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "OTP Implementation",
-            "site": "picoCTF",
-            "contest": "picoCTF 2020 Mini-Competition",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "It's Not My Fault 1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Web Gauntlet 3",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Very very very Hidden",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Forensics"
-        },
-        {
-            "problem": "New Vignere",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Rolling My Own",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "JAuth",
-            "site": "picoCTF",
-            "contest": "",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Bbbbloat",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "buffer overflow 2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "buffer overflow 3",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Eavesdrop",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Forensics"
-        },
-        {
-            "problem": "flag leak",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Operation Oni",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Forensics"
-        },
-        {
-            "problem": "ropfu",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "SQLiLite",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "St3g0",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Forensics"
-        },
-        {
-            "problem": "unpackme",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Very Smooth",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "wine",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Horsetrack",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Invisible WORDs",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Java Code Analysis!?!",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Special",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Virtual Machine 1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Investigative Reversing 2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "droids1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Investigative Reversing 1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "WebNet0",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "vault-door-6",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "seed-sPRiNG",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Irish-Name-Repo 2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "1_wanna_b3_a_r0ck5tar",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "General Skills"
-        },
-        {
-            "problem": "Download Horsepower",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "corrupt-key-1",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "SaaS",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "riscy business",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Checkpass",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "b00tl3gRSA2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "asm4",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Irish-Name-Repo 3",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "JaWT Scratchpad",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Java Script Kiddie",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "Need For Speed",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Investigative Reversing 4",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "B1ll_Gat35",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "droids2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "vault-door-7",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "AES-ABC",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Investigative Reversing 3",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "The Office",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "homework",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "function overwrite",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Keygenme",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Operation Orchid",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Forensics"
-        },
-        {
-            "problem": "Sequences",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "SideChannel",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Forensics"
-        },
-        {
-            "problem": "stack cache",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Sum-O-Primes",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Torrent Analyze",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Forensics"
-        },
-        {
-            "problem": "PowerAnalysis: Part 1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Ready Gladiator 2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Specialer",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "General Skills"
-        },
-        {
-            "problem": "SRA",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "vault-door-8",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "droids3",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Java Script Kiddie 2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "WebNet1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "investigation_encoded_1",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "b00tl3gRSA3",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Turboflan",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "lockdown-horses",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "john_pollard",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "droids4",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Forky",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "investigation_encoded_2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "sice_cream",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "B1g_Mac",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Forensics"
-        },
-        {
-            "problem": "zero_to_hero",
-            "site": "picoCTF",
-            "contest": "picoCTF 2019",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Clouds",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "Bizz Fuzz",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Bithug",
-            "site": "picoCTF",
-            "contest": "picoCTF 2021",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "corrupt-key-2",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "vr-school",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "MATRIX",
-            "site": "picoCTF",
-            "contest": "picoMini by redpwn",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "Live Art",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "noted",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "NSA Backdoor",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "solfire",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Binary Exploitation"
-        },
-        {
-            "problem": "Wizardlike",
-            "site": "picoCTF",
-            "contest": "picoCTF 2022",
-            "category": "Reverse Engineering"
-        },
-        {
-            "problem": "cancri-sp",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "msfroggenerator2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Web Exploitation"
-        },
-        {
-            "problem": "PowerAnalysis: Part 2",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Cryptography"
-        },
-        {
-            "problem": "UnforgottenBits",
-            "site": "picoCTF",
-            "contest": "picoCTF 2023",
-            "category": "Forensics"
-        }
-    ]
+  "problems": [
+    {
+      "problem": "Obedient Cat",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "General Skills"
+    },
+    {
+      "problem": "Mod 26",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Cryptography"
+    },
+    {
+      "problem": "Python Wrangling",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "General Skills"
+    },
+    {
+      "problem": "Wave a flag",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "General Skills"
+    },
+    {
+      "problem": "information",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Forensics"
+    },
+    {
+      "problem": "Nice netcat...",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "General Skills"
+    },
+    {
+      "problem": "Transformation",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Reverse Engineering"
+    },
+    {
+      "problem": "Stonks",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Binary Exploitation"
+    },
+    {
+      "problem": "GET aHEAD",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Mind your Ps and Qs",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Cryptography"
+    },
+    {
+      "problem": "Static ain't always noise",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "General Skills"
+    },
+    {
+      "problem": "Tab, Tab, Attack",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "General Skills"
+    },
+    {
+      "problem": "keygenme-py",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Reverse Engineering"
+    },
+    {
+      "problem": "Matryoshka doll",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Forensics"
+    },
+    {
+      "problem": "crackme-py",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Reverse Engineering"
+    },
+    {
+      "problem": "Magikarp Ground Mission",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "General Skills"
+    },
+    {
+      "problem": "tunn3l v1s10n",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Forensics"
+    },
+    {
+      "problem": "Easy Peasy",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Cryptography"
+    },
+    {
+      "problem": "Cookies",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "vault-door-training",
+      "site": "picoCTF",
+      "contest": "picoCTF 2019",
+      "category": "Reverse Engineering"
+    },
+    {
+      "problem": "Insp3ct0r",
+      "site": "picoCTF",
+      "contest": "picoCTF 2019",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Lets Warm Up",
+      "site": "picoCTF",
+      "contest": "picoCTF 2019",
+      "category": "General Skills"
+    },
+    {
+      "problem": "Glory of the Garden",
+      "site": "picoCTF",
+      "contest": "picoCTF 2019",
+      "category": "Forensics"
+    },
+    {
+      "problem": "Warmed Up",
+      "site": "picoCTF",
+      "contest": "picoCTF 2019",
+      "category": "General Skills"
+    },
+    {
+      "problem": "2Warm",
+      "site": "picoCTF",
+      "contest": "picoCTF 2019",
+      "category": "General Skills"
+    },
+    {
+      "problem": "Wireshark doo dooo do doo...",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Forensics"
+    },
+    {
+      "problem": "Scavenger Hunt",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Some Assembly Required 1",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "where are the robots",
+      "site": "picoCTF",
+      "contest": "picoCTF 2019",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "logon",
+      "site": "picoCTF",
+      "contest": "picoCTF 2019",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "dont-use-client-side",
+      "site": "picoCTF",
+      "contest": "picoCTF 2019",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "It is my Birthday",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Who are you?",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "login",
+      "site": "picoCTF",
+      "contest": "picoMini by redpwn",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Codebook",
+      "site": "picoCTF",
+      "contest": "Beginner picoMini 2022",
+      "category": "General Skills"
+    },
+    {
+      "problem": "convertme.py",
+      "site": "picoCTF",
+      "contest": "Beginner picoMini 2022",
+      "category": "General Skills"
+    },
+    {
+      "problem": "fixme1.py",
+      "site": "picoCTF",
+      "contest": "Beginner picoMini 2022",
+      "category": "General Skills"
+    },
+    {
+      "problem": "fixme2.py",
+      "site": "picoCTF",
+      "contest": "Beginner picoMini 2022",
+      "category": "General Skills"
+    },
+    {
+      "problem": "Glitch Cat",
+      "site": "picoCTF",
+      "contest": "Beginner picoMini 2022",
+      "category": "General Skills"
+    },
+    {
+      "problem": "HashingJobApp",
+      "site": "picoCTF",
+      "contest": "Beginner picoMini 2022",
+      "category": "General Skills"
+    },
+    {
+      "problem": "PW Crack 1",
+      "site": "picoCTF",
+      "contest": "Beginner picoMini 2022",
+      "category": "General Skills"
+    },
+    {
+      "problem": "PW Crack 2",
+      "site": "picoCTF",
+      "contest": "Beginner picoMini 2022",
+      "category": "General Skills"
+    },
+    {
+      "problem": "PW Crack 3",
+      "site": "picoCTF",
+      "contest": "Beginner picoMini 2022",
+      "category": "General Skills"
+    },
+    {
+      "problem": "PW Crack 4",
+      "site": "picoCTF",
+      "contest": "Beginner picoMini 2022",
+      "category": "General Skills"
+    },
+    {
+      "problem": "PW Crack 5",
+      "site": "picoCTF",
+      "contest": "Beginner picoMini 2022",
+      "category": "General Skills"
+    },
+    {
+      "problem": "runme.py",
+      "site": "picoCTF",
+      "contest": "Beginner picoMini 2022",
+      "category": "General Skills"
+    },
+    {
+      "problem": "Serpentine",
+      "site": "picoCTF",
+      "contest": "Beginner picoMini 2022",
+      "category": "General Skills"
+    },
+    {
+      "problem": "Includes",
+      "site": "picoCTF",
+      "contest": "picoCTF 2022",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Inspect HTML",
+      "site": "picoCTF",
+      "contest": "picoCTF 2022",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Local Authority",
+      "site": "picoCTF",
+      "contest": "picoCTF 2022",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Search source",
+      "site": "picoCTF",
+      "contest": "picoCTF 2022",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "findme",
+      "site": "picoCTF",
+      "contest": "picoCTF 2023",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "MatchTheRegex",
+      "site": "picoCTF",
+      "contest": "picoCTF 2023",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "SOAP",
+      "site": "picoCTF",
+      "contest": "picoCTF 2023",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Some Assembly Required 2",
+      "site": "picoCTF",
+      "contest": "picoCTF 2021",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "caas",
+      "site": "picoCTF",
+      "contest": "picoMini by redpwn",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "picobrowser",
+      "site": "picoCTF",
+      "contest": "picoCTF 2019",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Client-side-again",
+      "site": "picoCTF",
+      "contest": "picoCTF 2019",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Web Gauntlet",
+      "site": "picoCTF",
+      "contest": "picoCTF 2020 Mini-Competition",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Forbidden Paths",
+      "site": "picoCTF",
+      "contest": "picoCTF 2022",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Power Cookie",
+      "site": "picoCTF",
+      "contest": "picoCTF 2022",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Roboto Sans",
+      "site": "picoCTF",
+      "contest": "picoCTF 2022",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Secrets",
+      "site": "picoCTF",
+      "contest": "picoCTF 2022",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "SQL Direct",
+      "site": "picoCTF",
+      "contest": "picoCTF 2022",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "More SQLi",
+      "site": "picoCTF",
+      "contest": "picoCTF 2023",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Irish-Name-Repo 1",
+      "site": "picoCTF",
+      "contest": "picoCTF 2019",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "SQLiLite",
+      "site": "picoCTF",
+      "contest": "picoCTF 2022",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Irish-Name-Repo 2",
+      "site": "picoCTF",
+      "contest": "picoCTF 2019",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Irish-Name-Repo 3",
+      "site": "picoCTF",
+      "contest": "picoCTF 2019",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Sanity Check Round 44",
+      "site": "imaginaryCTF",
+      "contest": "imaginaryCTF Round 44",
+      "category": "General Skills"
+    },
+    {
+      "problem": "kaiser",
+      "site": "imaginaryCTF",
+      "contest": "imaginaryCTF Round 44",
+      "category": "Cryptography"
+    },
+    {
+      "problem": "Sleepy",
+      "site": "imaginaryCTF",
+      "contest": "imaginaryCTF Round 44",
+      "category": "Reverse Engineering"
+    },
+    {
+      "problem": "Filters",
+      "site": "Shakti CTF",
+      "contest": "Shakti CTF 2024",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Find the flag",
+      "site": "Shakti CTF",
+      "contest": "Shakti CTF 2024",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "Ultimate spider man",
+      "site": "Shakti CTF",
+      "contest": "Shakti CTF 2024",
+      "category": "Web Exploitation"
+    },
+    {
+      "problem": "eH lvl1",
+      "site": "Shakti CTF",
+      "contest": "Shakti CTF 2024",
+      "category": "Cryptography"
+    },
+    {
+      "problem": "eH lvl2",
+      "site": "Shakti CTF",
+      "contest": "Shakti CTF 2024",
+      "category": "Cryptography"
+    },
+    {
+      "problem": "Operation Ultra",
+      "site": "Shakti CTF",
+      "contest": "Shakti CTF 2024",
+      "category": "Reverse Engineering"
+    },
+    {
+      "problem": "Warmup_rev",
+      "site": "Shakti CTF",
+      "contest": "Shakti CTF 2024",
+      "category": "Reverse Engineering"
+    },
+    {
+      "problem": "Ocean_Enigma",
+      "site": "Shakti CTF",
+      "contest": "Shakti CTF 2024",
+      "category": "osint"
+    }
+  ]
 }
