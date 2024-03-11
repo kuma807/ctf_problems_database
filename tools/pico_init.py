@@ -1,6 +1,7 @@
 import json
 
-data = {"problems": []}
+with open("data/solved.json", "r") as file:
+    data = json.load(file)
 
 for i in range(1, 5):
     with open(f"data/pico_data{i}.json") as f:
@@ -21,6 +22,6 @@ for i in range(1, 5):
               "contest": contest,
               "category": category,
           })
-          
+
 with open("data/solved.json", "w") as file:
     json.dump(data, file, indent=2)
