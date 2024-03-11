@@ -6,6 +6,8 @@ self_solved = input("自力AC(y/n)")
 site = input("サイトの名前")
 contest = ""
 category = ""
+
+# picoCTFの場合はsiteに空行を入力することでコンテスト名、カテゴリの入力を自動で行ってくれるように実装
 if site == "":
   site = "picoCTF"
   for i in range(1, 5):
@@ -22,8 +24,8 @@ else:
   category = input("カテゴリー")
 utc_now = datetime.datetime.now(datetime.UTC).strftime('%Y-%m-%d %H:%M:%S')
 
-def update_problem_readme():
-  with open("problem/README.md", mode="r+") as f:
+def update_writeups():
+  with open("writeups/README.md", mode="r+") as f:
     s = f.read()
     contents = s.split("# 解いた問題")[0][:-2] + "  \n"
     contents += f"[{solved_problem}](#{solved_problem.lower().replace(' ', '-')})  \n\n"
@@ -33,16 +35,7 @@ def update_problem_readme():
     f.write(s)
     f.truncate()
 
-def update_solved_status():
-  with open("README.md", 'r') as file:
-    lines = file.readlines()
-  
-  new_lines = [line.replace("❌", "✅") if (f"[{solved_problem}]" in line) else line for line in lines]
-  
-  with open("README.md", 'w') as file:
-    file.writelines(new_lines)
-
-def update_data():
+def update_solved():
   with open("data/solved.json", "r") as file:
     data = json.load(file)
   data["problems"].append({
@@ -56,6 +49,5 @@ def update_data():
   with open("data/solved.json", "w") as file:
     json.dump(data, file, indent=2)
 
-update_problem_readme()
-update_solved_status()
-update_data()
+update_writeups()
+update_solved()
