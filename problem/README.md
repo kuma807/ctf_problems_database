@@ -53,7 +53,8 @@
 [Operation Ultra](#operation-ultra)  
 [Warmup_rev](#warmup_rev)  
 [Ocean_Enigma](#ocean_enigma)  
-[Participant Survey](#participant-survey)
+[Participant Survey](#participant-survey)  
+[Feedback](#feedback)
 
 # 解いた問題
 
@@ -1033,3 +1034,17 @@ category: General Skills
 ## 学び
 
 こんな問題もあるんですね。
+
+# Feedback
+
+site: Shakti CTF  
+contest: Shakti CTF 2024  
+category: General Skills
+
+## 解き方
+
+コンテスのフィードバックを google フォームで送るだけ。
+
+## 学び
+
+特になし
