@@ -54,7 +54,8 @@
 [Warmup_rev](#warmup_rev)  
 [Ocean_Enigma](#ocean_enigma)  
 [Participant Survey](#participant-survey)  
-[Feedback](#feedback)
+[Feedback](#feedback)  
+[Welcome to ShaktiCTF'24](#welcome-to-shaktictf'24)
 
 # 解いた問題
 
@@ -1044,6 +1045,20 @@ category: General Skills
 ## 解き方
 
 コンテスのフィードバックを google フォームで送るだけ。
+
+## 学び
+
+特になし
+
+# Welcome to ShaktiCTF'24
+
+site: Shakti CTF  
+contest: Shakti CTF 2024  
+category: General Skills
+
+## 解き方
+
+discord に貼ってある画像をクリックすると flag が見れる。
 
 ## 学び
 
