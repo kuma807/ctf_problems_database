@@ -54,7 +54,7 @@ def update_data():
       "time": utc_now
     })
   with open("data/solved.json", "w") as file:
-    json.dump(data, file, indent=4)
+    json.dump(data, file, indent=2)
 
 update_problem_readme()
 update_solved_status()
