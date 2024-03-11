@@ -479,6 +479,14 @@
       "site": "Shakti CTF",
       "contest": "Shakti CTF 2024",
       "category": "osint"
+    },
+    {
+      "problem": "Participant Survey",
+      "site": "Shakti CTF",
+      "contest": "Shakti CTF 2024",
+      "category": "General Skills",
+      "selfSolved": true,
+      "time": "2024-03-11 10:44:40"
     }
   ]
 }

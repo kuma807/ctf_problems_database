@@ -52,7 +52,8 @@
 [eH lvl2](#eh-lvl2)  
 [Operation Ultra](#operation-ultra)  
 [Warmup_rev](#warmup_rev)  
-[Ocean_Enigma](#ocean_enigma)
+[Ocean_Enigma](#ocean_enigma)  
+[Participant Survey](#participant-survey)
 
 # 解いた問題
 
@@ -1018,3 +1019,17 @@ category: osint
 ## 学び
 
 特になし
+
+# Participant Survey
+
+site: Shakti CTF  
+contest: Shakti CTF 2024  
+category: General Skills
+
+## 解き方
+
+アンケートに答えるだけ。賞金対象者かを判別してるっぽい。
+
+## 学び
+
+こんな問題もあるんですね。
