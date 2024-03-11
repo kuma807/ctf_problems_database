@@ -2,7 +2,6 @@ import datetime
 import json
 
 solved_problem = input("問題名")#サイトに表示される問題名
-self_solved = input("自力AC(y/n)")
 site = input("サイトの名前")
 contest = ""
 category = ""
@@ -11,7 +10,7 @@ category = ""
 if site == "":
   site = "picoCTF"
   for i in range(1, 5):
-    with open(f"tools/pico_data{i}.json") as f:
+    with open(f"data/pico_data{i}.json") as f:
       di = json.load(f)
       for result in di["results"]:
         if result["name"] == solved_problem:
@@ -43,7 +42,6 @@ def update_solved():
       "site": site,
       "contest": contest,
       "category": category,
-      "selfSolved": self_solved == "y",
       "time": utc_now
     })
   with open("data/solved.json", "w") as file:
